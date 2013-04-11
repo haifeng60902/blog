@@ -9,15 +9,17 @@ HTML 参考
 HTML（Hyper Text Markup Langauge，超文本标记语言）是用来描述网页信息的一门标记语言。它使用由HTML标签、属性及文本内容组成的HTML元素来描述网页的内容和语义，一系列的HTML元素组成HTML文档（通常为 .html 格式），HTML文档在浏览器中显示为网页。
 
 几个概念：
-> + HTML是一门标记语言，不是编程语言
-> + .html 文件称为HTML文档，显示在浏览器中后，才称之为网页
++ HTML是一门标记语言，不是编程语言
++ .html 文件称为HTML文档，显示在浏览器中后，才称之为网页
 
 HTML基础
 --------
 
 来看一个连接到 <a href="http://www.google.com/">Google</a> 的超链接：
 
-	<a href="http://www.google.com/">Google</a>
+```html
+<a href="http://www.google.com/">Google</a>
+```
 
 这一个超链接就是一个 `a` __元素__。其中的 `<a>` 和 `</a>` 为一对__标签__ ，`href` 为元素的__属性__，Google为元素的__内容__。
 
@@ -41,7 +43,9 @@ __HTML元素__ 指的是从开始标签到结束标签之间的全部内容（�
 __属性__ 用来描述HTML元素的额外信息。如 `href` 属性用来描述 `a` 元素连接到的文件或地址（`URL`），`src` 属性用来描述 `img` 元素的图像地址。  
 属性包括 _属性名_ 和 _属性值_ 两部分，中间以 `=` 连接。属性值要用 `""` 包括。
 
-	<img src="image.png" width="300" height="200" />
+```html
+<img src="image.png" width="300" height="200" />
+```
 
 属性要写在开始标签中，属性之间以及属性与标签文本之间要有一个空格。
 
@@ -49,7 +53,9 @@ __属性__ 用来描述HTML元素的额外信息。如 `href` 属性用来描述
 
 HTML注释通常用来在HTML文档中添加注释文本或用来屏蔽不需要显示的代码。
 
-	<!-- 注释内容 -->
+```html
+<!-- 注释内容 -->
+```
 
 注释由 `<!--` 和 `-->` 组成，包含在其中的任何内容都将被浏览器忽略，而不会显示在网页中。
 
@@ -70,15 +76,17 @@ HTML标签
 
 标签是HTML文档的基本组成元素，我们先通过一个基本的HTML文档来认识一下标签的作用。
 
-	<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 	<html>
 		<head>
 			<title>网页的标题</title>
 		</head>
-		<body>
-			<p>一个段落</p>
-		</body>
-	</html>
+	<body>
+		<p>一个段落</p>
+	</body>
+</html>
+```
 
 这段代码就是一个简单而完善的HTML文档，我们来深入了解一下：
 
