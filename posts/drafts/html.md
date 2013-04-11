@@ -37,11 +37,7 @@ HTML基础
 
 这一个超链接就是一个 `a` __元素__。其中的 `<a>` 和 `</a>` 为一对 __标签__ ，`href` 为元素的 __属性__，Google为元素的 __内容__。
 
-<<<<<<< HEAD
 ###HTML元素
-=======
-这一个超链接就是一个 `a` __元素__。其中的 `<a>` 和 `</a>` 为一对 __标签__ ，`href` 为元素的 __属性__，Google为元素的 __内容__。
->>>>>>> c74f2f7ccd3fe39ac7098bebd30f4c86a831b1e0
 
 ####HTML标签
 
@@ -127,7 +123,8 @@ HTML标签
 5. `<body></body>` 定义了网页的内容，也就是我们可以从浏览器中看到的内容
 
 <<<<<<< HEAD
-<<<<<<< HEAD
+@time 2013-4-10 21:43:59 first day over
+=======
 @time 2013-4-10 21:43:59 first day over
 
 @time 2013-4-11 14:29:16 another day start
@@ -260,9 +257,4 @@ Markdown
 鼠标事件
 
 @time 2013-4-11 15:53:07 add tag list and special topics
-=======
-@time 2013-4-10 21:43:59 first day over
->>>>>>> c74f2f7ccd3fe39ac7098bebd30f4c86a831b1e0
-=======
-@time 2013-4-10 21:43:59 first day over
->>>>>>> c74f2f7ccd3fe39ac7098bebd30f4c86a831b1e0
+>>>>>>> update some main tag's info
