@@ -8,9 +8,10 @@ html 标签
 属性
 ----
 
-1.manifest [html5]
+###1.manifest [html5]
 
-用于指定文件缓存描述文件（manifest file）的路径。
+用于指定文件缓存描述文件（manifest file）的路径。  
+该属性可选。
 
 属性值：
 >1.url 指向缓存描述文件
