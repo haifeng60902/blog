@@ -152,8 +152,8 @@ HTML标签
 
 页面信息：
 
->title  
->base  
+>[title](/html_tag_title.md "title")  
+>[base](/html_tag_base.md "base")  
 >meta
 >style
 >script
