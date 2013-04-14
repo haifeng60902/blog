@@ -132,7 +132,7 @@ HTML标签
 
 推荐阅读：
 
->[HTML标签语义化](/html_semantic.md "HTML Semantic")
+>[HTML标签语义化](html_semantic.md "HTML Semantic")
 
 了解了HTML标签的语义化之后，我们就可以开始学习每一个HTMl标签了。
 
@@ -145,16 +145,16 @@ HTML标签
 
 基本标签：
 
->[doctype](/html_doctype.md "doctype 文档类型定义")  
->[html](/html_tag_html.md "html")  
->[head](/html_tag_head.md "head")  
->[body](/html_tag_body.md "body")
+>[doctype](html_doctype.md "doctype 文档类型定义")  
+>[html](html_tag_html.md "html")  
+>[head](html_tag_head.md "head")  
+>[body](html_tag_body.md "body")
 
 页面信息：
 
->[title](/html_tag_title.md "title")  
->[base](/html_tag_base.md "base")  
->[meta](/html_tag_meta.md "meta")  
+>[title](html_tag_title.md "title")  
+>[base](html_tag_base.md "base")  
+>[meta](html_tag_meta.md "meta")  
 >style  
 >script
 
