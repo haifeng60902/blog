@@ -155,17 +155,17 @@ HTML标签
 >[title](html_tag_title.md "title")  
 >[base](html_tag_base.md "base")  
 >[meta](html_tag_meta.md "meta")  
->style  
->script
+>[style](html_tag_style.md "style")  
+>[script](html_tag_script.md "script")
 
 资源关联：
 
->link  
->script
+>[link](html_tag_link.md "link")  
+>[script](html_tag_script.md "script")
 
 注释：
 
-><!---->
+><!----\>
 
 结构相关：
 
