@@ -167,7 +167,7 @@ HTML标签
 
 内容相关：
 
->文本族：abbr bdi bdo code dd del ins mark pre q rp rt ruby small span sub sup time  
+>文本族：abbr bdi bdo del ins mark pre q rp rt ruby small span sub sup time  
 >超链接和锚：a  
 >多媒体：area audio canvas embed img map object param source track video  
 >列表：dd dl dt li ol ul   
