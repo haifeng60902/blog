@@ -1,5 +1,3 @@
-@time 2013-04-10 19:30 start
-
 HTML 参考
 ========
 
@@ -122,10 +120,6 @@ HTML标签
 4. `<title></title>` 定义了网页的标题，该信息会显示在浏览器的标题栏（或浏览器标签）以及收藏夹中
 5. `<body></body>` 定义了网页的内容，也就是我们可以从浏览器中看到的内容
 
-@time 2013-4-10 21:43:59 first day over
-
-@time 2013-4-11 14:29:16 another day start
-
 ###标签语义化
 
 我们从上一节的例子中可以看出，每一个HTML标签都是有具体意义的英文单词。这种标签的 __语义化__ （Semantic），是HTML在制定的最初就一直遵守的规则，用来将文本等信息结构化，从而方便理解和使用。
@@ -169,19 +163,19 @@ HTML标签
 
 >[br](html_tag_br.md "br")  
 >[hr](html_tag_hr.md "hr")  
->[div](html_tag_div.md "div") address article aside blockquote footer header menu nav section
+>[div](html_tag_div.md "div") address article aside blockquote details figcaption figure footer h* header menu nav p section summary
 
 内容相关：
 
->文本族
->超链接和锚
->多媒体
->列表
->表格
->表单
->框架
->字符实体
->其他
+>文本族：abbr bdi bdo code dd del ins mark pre q rp rt ruby small span sub sup time  
+>超链接和锚：a  
+>多媒体：area audio canvas embed img map object param source track video  
+>列表：dd dl dt li ol ul   
+>表格：caption col colgroup table tbody td tfoot th thead tr  
+>表单：button command datalist fieldset form input keygen label legend meter option optgroup output progress select textarea  
+>框架：iframe  
+>字符实体：
+>其他：b dfn code em i kbd samp strong var
 
 其他：
 
@@ -250,5 +244,3 @@ Markdown
 键盘事件
 
 鼠标事件
-
-@time 2013-4-11 15:53:07 add tag list and special topics
