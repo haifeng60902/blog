@@ -10,7 +10,7 @@
 
 	<abbr title="Hyper Text Markup Langauge">HTML</abbr>
 
-2.bdi
+2.bdi [HTML5]
 -----
 
 unknown
@@ -62,7 +62,7 @@ unknown
 
 与 `<del>` 元素相同。
 
-6.mark
+6.mark [HTML5]
 ------
 
 用于定义带有标记的文本，如搜索结果中需要高亮显示的文本。
@@ -86,12 +86,12 @@ unknown
 属性值：
 >1. url 引用的地址
 
-9.rb
+9.rb [HTML5]
 ----
 
 在 `<ruby>` 元素中使用，用于定义文字。
 
-10.rp
+10.rp [HTML5]
 ----
 
 在 `<ruby>` 元素中使用，用于定义不支持 ruby 元素的浏览器所显示的内容。
@@ -109,25 +109,55 @@ unknown
 
 上图分别展示了支持（Chrome 26）和不支持（Firefox 20）的效果。
 
-11.rt
+11.rt [HTML5]
 -----
 
 在 `<ruby>` 元素中使用，用于定义音标文字。
 
-12.ruby
+12.ruby [HTML5]
 -------
+
+用于定义 ruby 注释，主要用于东亚语言的注音。
 
 13.small
 --------
 
+用于定义旁注文字，显示为小号字体。
+
 14.span
 -------
+
+用于分隔行内元素，常用于对文字添加样式。
 
 15.sub
 ------
 
+用于定义上标文本。
+
 16.sup
 ------
 
-17.time
+用于定义下标文本。
+
+17.time [HTML5]
 -------
+
+用于定义代表日期或时间的文本。
+
+	<time datetime="2013-06-01">儿童节</time>
+
+###属性
+
+1.datetime
+
+用于指定 `<time>` 元素中的文本代表的实际时间。
+
+属性值：
+>1. YYYY-MM-DDThh:mm:ssTZD 日期时间及时区
+
+2.pubdate
+
+用于指定该 `<time>` 元素的时间为内容的发布时间。
+
+属性值：
+>1. pubdate 指定时间为发布时间
