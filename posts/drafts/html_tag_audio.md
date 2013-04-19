@@ -53,31 +53,118 @@ Audio对象
 ----------
 
 参考：[HTMLMediaElement](https://developer.mozilla.org/zh-CN/docs/DOM/HTMLMediaElement "HTMLMediaElement")
+[MediaElement](http://www.w3.org/TR/2012/CR-html5-20121217/embedded-content-0.html#media-element "media-element")
 
 ###属性
 
 1.src
 
-记录了音频文件的URL。
+音频文件的URL。
 
 	var src=audio.src; // 读取URL
 	audio.src="music.mp3"; // 修改URL
 
 2.currentTime
 
-记录了当前播放时间（单位：秒）。
+当前播放时间（单位：秒）。
 
 	var time=audio.currentTime; // 读取当前时间
 	audio.currentTime=30; // 设置当前时间为30秒
 
 3.volume
 
-记录了音频的音量（范围：0.0-1.0）。
+音频的音量（范围：0.0-1.0）。
 
 	var volume=audio.volume; // 读取音量
 	audio.volume+=0.1; // 增大音量
 	
+4.autoplay
 
+音频是否自动播放（true/false）。
+
+	var autoplay=audio.autoplay; // 读取自动播放状态
+	audio.autoplay=true; // 设置音频自动播放
+
+5.controls
+
+是否显示播放控件（true/false）。
+
+6.defaultMuted
+
+是否默认静音（true/false）。
+
+7.defaultPlaybackRate
+
+默认播放速度（>0.0~1.0-...）。
+
+8.duration
+
+音频时长（只读，单位：秒）。
+
+9.ended
+
+是否播放完毕（只读，true/false）。
+
+10.initialTime
+
+播放起始时间（只读，单位：秒）。
+
+11.loop
+
+是否循环播放（true/false）。
+
+12.muted
+
+是否静音（true/false）。
+
+13.networkState
+
+网络状态。
+
+NETWORK_EMPTY/0 未加载文件
+NETWORK_IDLE/1 网络空闲
+NETWORK_LOADING/2 正在加载文件
+NETWORK_NO_SOURCE/3 【？】
+
+14.paused
+
+是否暂停（只读，true/false）。
+
+15.playbackRate
+
+播放速度。
+
+FF中，范围是 0.25~5.0。
+
+16.played
+
+已播放时间（只读）。
+
+17.preload
+
+预加载方式（none/metadata/auto）。
+
+18.readyState
+
+媒体状态（只读）。
+
+HAVE_NOTHING/0 不可用
+HAVE_METADATA/1 媒体信息可用
+HAVE_CURRENT_DATA/2 已加载当前播放数据
+HAVE_FUTURE_DATA/3 已加载未来播放数据
+HAVE_ENOUGH_DATA/4 数据充足
+
+19.seekable
+
+用户可选播放范围。
+
+timeRange.start 起始时间
+timeRange.end 终止时间
+timeRange.length 时间长度
+
+20.seeking
+
+是否在选择播放位置（拖动滑块）。
 
 ###方法
 
@@ -92,3 +179,14 @@ Audio对象
 暂停播放。
 
 	audio.pause(); // 暂停播放
+
+3.load()
+
+开始加载数据。
+
+4.canPlayType(DOMString)
+
+return:
+>1. probably 可播放
+>2. maybe 可能可播放
+>3. [empty] 不可播放
