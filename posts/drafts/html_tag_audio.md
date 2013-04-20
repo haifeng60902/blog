@@ -49,6 +49,13 @@ audio 标签
 
 指定音频文件的URL。
 
+###6.muted
+
+指定静音。
+
+属性值：
+>1. muted
+
 Audio对象
 ----------
 
@@ -124,7 +131,7 @@ Audio对象
 NETWORK_EMPTY/0 未加载文件
 NETWORK_IDLE/1 网络空闲
 NETWORK_LOADING/2 正在加载文件
-NETWORK_NO_SOURCE/3 【？】
+NETWORK_NO_SOURCE/3 资源不可用【？】
 
 14.paused
 
@@ -134,7 +141,8 @@ NETWORK_NO_SOURCE/3 【？】
 
 播放速度。
 
-FF中，范围是 0.25~5.0。
+FF中，范围是 0.25~5.0。  
+Chrome中，范围是 0.5~4.0。
 
 16.played
 
