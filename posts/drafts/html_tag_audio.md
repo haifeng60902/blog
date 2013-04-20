@@ -166,13 +166,18 @@ HAVE_ENOUGH_DATA/4 数据充足
 
 用户可选播放范围。
 
-timeRange.start 起始时间
-timeRange.end 终止时间
-timeRange.length 时间长度
+TimeRanges 包含多个时间段的数组。
+timeRanges.length 数组长度
+timeRanges.start(i) 时间段i的起始时间
+timeRanges.end(i) 时间段i的终止时间
 
 20.seeking
 
 是否在选择播放位置（拖动滑块）。
+
+21.buffered
+
+已加载的时间段（timeRanges）。
 
 ###方法
 
