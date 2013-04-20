@@ -50,9 +50,17 @@ window.onload=function(){
 		console.log("audio.src: "+audio.src+"\n");
 	};
 
+	// get initialTime
+	document.getElementById("get_initial_time").onclick=function(){
+		console.log("audio.initialTime: "+audio.initialTime+"\n");
+	};
 	// get duration
 	document.getElementById("get_duration").onclick=function(){
 		console.log("audio.duration: "+audio.duration+"\n");
+	};
+	// get seeking
+	document.getElementById("get_seeking").onclick=function(){
+		console.log("audio.seeking: "+audio.seeking+"\n");
 	};
 	// set currentTime
 	document.getElementById("jump_to").onclick=function(){
@@ -62,6 +70,15 @@ window.onload=function(){
 	// get currentTime
 	document.getElementById("get_current_time").onclick=function(){
 		console.log("audio.currentTime: "+audio.currentTime+"\n");
+	};
+	// get played
+	document.getElementById("get_played").onclick=function(){
+		console.log("audio.played:\n");
+		var ranges=audio.played;
+		var n=ranges.length;
+		for(var i=0;i<n;i++){
+			console.log("("+ranges.start(i)+","+ranges.end(i)+")\n");
+		}
 	};
 
 	// autoplay on
@@ -164,5 +181,23 @@ window.onload=function(){
 	// get readyState
 	document.getElementById("get_ready_state").onclick=function(){
 		console.log("audio.readyState: "+audio.readyState+"\n");
+	};
+	// get buffered
+	document.getElementById("get_buffered").onclick=function(){
+		console.log("audio.buffered:\n");
+		var ranges=audio.buffered;
+		var n=ranges.length;
+		for(var i=0;i<n;i++){
+			console.log("("+ranges.start(i)+","+ranges.end(i)+")\n");
+		}
+	};
+	// get seekable
+	document.getElementById("get_seekable").onclick=function(){
+		console.log("audio.seekable:\n");
+		var ranges=audio.seekable;
+		var n=ranges.length;
+		for(var i=0;i<n;i++){
+			console.log("("+ranges.start(i)+","+ranges.end(i)+")\n");
+		}
 	};
 };
