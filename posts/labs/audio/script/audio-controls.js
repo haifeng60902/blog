@@ -35,13 +35,29 @@ window.onload=function(){
 		console.log("audio.volume: "+audio.volume+"\n");
 	};
 
+	// set src_music1
+	document.getElementById("play_music1").onclick=function(){
+		audio.src="./media/music1.mp3";
+		console.log("play music1\n");
+	};
+	// set src_music2
+	document.getElementById("play_music2").onclick=function(){
+		audio.src="./media/music2.mp3";
+		console.log("play music2\n");
+	};
 	// get src
 	document.getElementById("get_src").onclick=function(){
 		console.log("audio.src: "+audio.src+"\n");
 	};
+
 	// get duration
 	document.getElementById("get_duration").onclick=function(){
 		console.log("audio.duration: "+audio.duration+"\n");
+	};
+	// set currentTime
+	document.getElementById("jump_to").onclick=function(){
+		audio.currentTime=30;
+		console.log("jumpTo 30s\n");
 	};
 	// get currentTime
 	document.getElementById("get_current_time").onclick=function(){
