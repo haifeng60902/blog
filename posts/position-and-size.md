@@ -1,20 +1,25 @@
 HTML & JavaScript 中的位置和尺寸
 ==============================
 
+名词
+----
+
+###文档显示区域
+
 event
 -----
 
 ###clientX|clientY
 
-事件发生点距浏览器窗口内容区域左/上边缘的距离
+事件发生点距浏览器文档显示区域左/上边缘的距离
 
 ###offsetX|offsetY
 
-事件发生点距事件所在元素左/上边缘的距离
+事件发生点距所在元素左/上边缘的距离
 
 ###screenX|screenY
 
-事件发生点距显示器可视区域左/上边缘的距离
+事件发生点距屏幕左/上边缘的距离
 
 element
 -------
@@ -43,21 +48,35 @@ scrollTop.Max=scrollHeight-clientHeight
 window
 ------
 
-###innerheight|innerwidth
+###innerWidth|innerHeight
 
-###outerheight|outerwidth
+浏览器文档显示区域的宽度、高度
+
+###outerWidth|outerHeight
+
+浏览器窗口的宽度、高度
 
 ###pageXOffset|pageYOffset
 
+当前页面的横/纵向滚动距离
+
 ###screenLeft|screenTop|screenX|screenY
+
+浏览器窗口距离屏幕左/上边缘的距离
 
 screen
 ------
 
-###availHeight|availWidth
+###width|height
+
+屏幕的宽度、高度
+
+###availWidth|availHeight
+
+屏幕可用区域的宽度、高度（不包括任务栏）
 
 ###deviceXDPI|deviceYDPI
 
-###localXDPI|localYDPI
 
-###height|width
+
+###logicalXDPI|logicalYDPI
