@@ -42,7 +42,8 @@ box中内容实际（可滚动）宽度、高度，内容横/纵向滚动距离
 scrollLeft.Max=scrollWidth-clientWidth  
 scrollTop.Max=scrollHeight-clientHeight
 
-![element](/images/position-and-size-element.png "element")
+![element](/images/position-and-size-element.png "element")  
+半透明的部分为 div 的展开模式，用来演示 _内容滚动_
 
 window 对象
 -----------
@@ -63,7 +64,8 @@ window 对象
 
 浏览器窗口距离屏幕左/上边缘的距离
 
-![window](/images/position-and-size-window.png "window")
+![window](/images/position-and-size-window.png "window")  
+背景（外侧大图）部分为 整个页面 的展开模式，用来演示 _内容滚动_
 
 screen 对象
 -----------
