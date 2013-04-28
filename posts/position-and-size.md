@@ -1,13 +1,8 @@
 HTML & JavaScript 中的位置和尺寸
 ==============================
 
-名词
-----
-
-###文档显示区域
-
-event
------
+event 对象
+----------
 
 ###clientX|clientY
 
@@ -21,8 +16,8 @@ event
 
 事件发生点距屏幕左/上边缘的距离
 
-element
--------
+element 对象
+------------
 
 ###style.width|style.height
 
@@ -45,8 +40,10 @@ box中内容实际（可滚动）宽度、高度，内容横/纵向滚动距离
 scrollLeft.Max=scrollWidth-clientWidth  
 scrollTop.Max=scrollHeight-clientHeight
 
-window
-------
+![element](/images/position-and-size-element.png "element")
+
+window 对象
+-----------
 
 ###innerWidth|innerHeight
 
@@ -64,8 +61,10 @@ window
 
 浏览器窗口距离屏幕左/上边缘的距离
 
-screen
-------
+![window](/images/position-and-size-window.png "window")
+
+screen 对象
+-----------
 
 ###width|height
 
@@ -80,3 +79,5 @@ screen
 
 
 ###logicalXDPI|logicalYDPI
+
+![screen](/images/position-and-size-screen.png "screen")
