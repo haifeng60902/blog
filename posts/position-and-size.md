@@ -1,6 +1,8 @@
 HTML & JavaScript 中的位置和尺寸
 ==============================
 
+观看演示：[position and size](http://learnshare.github.io/labs/position-size/index.html "[demo]position and size").
+
 event 对象
 ----------
 
