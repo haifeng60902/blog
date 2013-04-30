@@ -172,7 +172,8 @@ HTML标签
 >[超链接和锚](html_tag_a.md "超链接和锚")
 >：a area map  
 >[多媒体](html_tags_media.md "多媒体")：
->audio canvas embed img object param source track video  
+>[audio](html_tag_audio.md "audio")  
+>canvas embed img object param source track video  
 >列表：dd dl dt li ol ul   
 >表格：caption col colgroup table tbody td tfoot th thead tr  
 >表单：button command datalist fieldset form input keygen label legend meter option optgroup output progress select textarea  
