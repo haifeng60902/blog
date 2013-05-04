@@ -22,6 +22,14 @@ canvas context2D 对象
 2. CanvasPattern 由 context.createPattern() 方法创建的对象
 3. CanvasGradient 由 context.createLinerGradient() 或 context.createRadialGradient() 方法创建的对象
 
+###font
+
+指定了文本的字体、风格和大小。
+
+属性值：
+
+1. CSS-font CSS 字体属性值
+
 ###3.globalAlpha
 
 指定了绘制的不透明度。
@@ -88,9 +96,34 @@ canvas context2D 对象
 
 指定了阴影的y偏移量。
 
-#13.strokeStyle
+###13.strokeStyle
 
 指定了用于绘制路径的颜色、模式或渐变。
+
+###textAlign
+
+指定了文本对齐方式。
+
+属性值：
+
+1. start
+2. end
+3. left
+4. right
+5. center
+
+###textBaseLine
+
+指定了文本基线的位置。
+
+属性值：
+
+1. top
+2. hanging
+3. middle
+4. alphabetic
+5. ideographic
+6. bottom
 
 方法
 ----
@@ -182,7 +215,7 @@ arcTo(x1,y1,x2,y2,r)
 
 rect(x,y,w,h)
 
-从 `(x,y)` 开始，以指定的宽度和高度绘制矩形边框。
+从 `(x,y)` 开始，以指定的宽度和高度绘制矩形路径。（操作完成后，当前点变为 `(0,0)`）
 
 属性：
 >1.x 矩形左上角的横坐标  
@@ -197,6 +230,10 @@ fillRect(x,y,w,h)
 clearRect(x,y,w,h)
 
 从 `(x,y)` 开始，以指定的宽度和高度擦除矩形区域（只对填充区域有效，无法擦除边框）。
+
+strokeRect(x,y,w,h)
+
+从 `(x,y)` 开始，以指定的宽度和高度绘制矩形边框。
 
 ###阴影
 
@@ -225,12 +262,48 @@ __注：__ `img` 可以是页面中已存在的 `<img>` 对象，也可以是通
 
 ###文本
 
+fillText(text,x,y,mw)
+
+以 `(x,y)` 为起点，将文本 `text` 绘制到画布中（填充）。
+
+参数：
+>1.text 要绘制的文本  
+>2.x 绘制起点的横坐标  
+>3.y 绘制起点的纵坐标  
+>4.mw 文本字体最大值（可选）
+
+strokeText(text,x,y,mw)
+
+以 `(x,y)` 为起点，将文本 `text` 绘制到画布中（描边）。
+
+参数：
+>1.text 要绘制的文本  
+>2.x 绘制起点的横坐标  
+>3.y 绘制起点的纵坐标  
+>4.mw 文本字体最大值（可选）
+
+###模式和渐变
+
+`strokeStyle` 和 `fillStyle` 属性均可接受颜色、模式或渐变作为参数。
+
+createPattern(img,repeat)
+
+返回通过指定的图像和重复方式生成的模式（贴图画笔）对象。
+
+参数：
+>1.img 图像资源  
+>2.repeat 重复方式
+>>repeat 在x和y方向上重复  
+>>repeat-x 在x方向上重复  
+>>repeat-y 在y方向上重复  
+>>no-repeat 不重复
 
 
-###颜色和渐变
 
 ###坐标转换
 
-###图像保存
+###状态保存与恢复
+
+###数据导出
 
 ###其他
