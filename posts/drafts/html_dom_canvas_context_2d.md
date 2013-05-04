@@ -133,7 +133,7 @@ lineTo(x,y)
 
 bezierCurveTo(cx1,cy1,cx2,cy2,x,y)
 
-以当前点为起点，绘制贝塞尔曲线。（操作完成后，当前点变为 `(x,y)`）
+以当前点为起点，绘制三次贝塞尔曲线。（操作完成后，当前点变为 `(x,y)`）
 
 参数：
 >1.cx1 控制点1的横坐标  
@@ -142,6 +142,16 @@ bezierCurveTo(cx1,cy1,cx2,cy2,x,y)
 >4.cy2 控制点2的纵坐标  
 >5.x 终点的横坐标  
 >6.y 终点的纵坐标
+
+quadraticCurveTo(cx,cy,x,y)
+
+以当前点为起点，绘制贝塞尔曲线。（操作完成后，当前点变为 `(x,y)`）
+
+属性：
+>1.cx 控制点的横坐标  
+>2.cy 控制点的纵坐标  
+>3.x 终点的横坐标  
+>4.y 终点的纵坐标
 
 ###圆和弧
 
@@ -190,9 +200,32 @@ clearRect(x,y,w,h)
 
 ###阴影
 
+通过 `shadowColor` `shadowOffsetX` `shadowOffsetY` 和 `shadowBlur` 属性指定所绘制图形的阴影。
+
 ###组合
 
+通过 `globalCompositeOperation` 属性指定图形重合的方式。
+
 ###图像
+
+drawImage(img,x,y)
+
+将图像绘制到以画布 `(x,y)` 为起点，与图像宽度和高度相等的矩形中（按照图像原始大小绘制）。
+
+drawImage(img,x,y,w,h)
+
+将图像绘制到以画布 `(x,y)` 为起点，宽度 `w` 和高度 `h` 的矩形中（图像会被缩放）。
+
+
+drawImage(img,sx,sy,sw,sh,x,y,w,h)
+
+将图像中以 `(sx,sy)` 为起点，宽度 `sw` 高度 `sh` 的矩形区域（裁剪）绘制到以画布 `(x,y)` 为起点，宽度 w 和高度 h 的矩形中（图像会被缩放）。
+
+__注：__ `img` 可以是页面中已存在的 `<img>` 对象，也可以是通过 JS 创建的。
+
+###文本
+
+
 
 ###颜色和渐变
 
