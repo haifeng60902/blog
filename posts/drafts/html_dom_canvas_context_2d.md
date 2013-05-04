@@ -243,6 +243,10 @@ strokeRect(x,y,w,h)
 
 通过 `globalCompositeOperation` 属性指定图形重合的方式。
 
+###剪切路径
+
+clip()
+
 ###图像
 
 drawImage(img,x,y)
@@ -288,7 +292,7 @@ strokeText(text,x,y,mw)
 
 createPattern(img,repeat)
 
-返回通过指定的图像和重复方式生成的模式（贴图画笔）对象。
+返回通过指定的图像和重复方式创建的模式（贴图画笔）对象。
 
 参数：
 >1.img 图像资源  
@@ -298,12 +302,69 @@ createPattern(img,repeat)
 >>repeat-y 在y方向上重复  
 >>no-repeat 不重复
 
+createLinearGradient(sx,sy,ex,ey)
 
+返回通过指定的起点和终点创建的线性渐变对象。
+
+参数：
+>1.sx 起点的横坐标  
+>2.sy 起点的纵坐标  
+>3.ex 终点的横坐标  
+>4.ey 终点的纵坐标
+
+createLinearGradient(sx,sy,sr,ex,ey,er)
+
+返回通过指定的起点、起始半径、终点和终止半径创建的径向（放射）渐变对象。
+
+参数：
+>1.sx 起点的横坐标  
+>2.sy 起点的纵坐标  
+>3.sr 起始半径  
+>4.ex 终点的横坐标  
+>5.ey 终点的纵坐标  
+>6.er 终止半径
+
+Gradient.addColorStop(offset,color)
+
+给渐变对象添加颜色控制点。
+
+参数：
+>1.offset 控制点位置（0.0-1.0）  
+>2.color CSS 颜色字符串
 
 ###坐标转换
 
+rotate(angle)
+
+将画布坐标旋转 `angle` 指定的角度（弧度）。
+
+参数：
+>1.angle 旋转角度（弧度，正代表顺时针，负代表逆时针）
+
+scale(sx,sy)
+
+按指定的值分别在 x 和 y 方向上缩放画布坐标。
+
+参数：
+>1.sx 横坐标缩放倍数  
+>2.sy 纵坐标缩放倍数
+
+translate(dx,dy)
+
+按指定的值分别在 x 和 y 方向上移动画布坐标。
+
+参数：
+>1.dx 横坐标移动距离  
+>2.dy 纵坐标移动距离
+
 ###状态保存与恢复
 
-###数据导出
+save()
 
-###其他
+将画布的当前状态保存到栈中。（包括 context2D 的左右属性，变换矩阵以及剪切路径）
+
+restore()
+
+恢复栈中画布最近的状态。
+
+###数据导出
