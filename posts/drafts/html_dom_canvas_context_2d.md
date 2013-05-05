@@ -22,7 +22,7 @@ canvas context2D 对象
 2. CanvasPattern 由 context.createPattern() 方法创建的对象
 3. CanvasGradient 由 context.createLinerGradient() 或 context.createRadialGradient() 方法创建的对象
 
-###font
+###3.font
 
 指定了文本的字体、风格和大小。
 
@@ -30,7 +30,7 @@ canvas context2D 对象
 
 1. CSS-font CSS 字体属性值
 
-###3.globalAlpha
+###4.globalAlpha
 
 指定了绘制的不透明度。
 
@@ -38,7 +38,7 @@ canvas context2D 对象
 
 1. alpha 透明度（0.0-1.0，默认为 1.0）
 
-###4.globalCompositeOperation
+###5.globalCompositeOperation
 
 指定了颜色合成方式。
 
@@ -46,7 +46,7 @@ canvas context2D 对象
 
 1. ？？？？
 
-###5.lineCap
+###6.lineCap
 
 指定了线段末端如何绘制。
 
@@ -56,7 +56,7 @@ canvas context2D 对象
 2. round 
 3. square
 
-###6.lineJoin
+###7.lineJoin
 
 指定了线条末端如何连接。
 
@@ -66,7 +66,7 @@ canvas context2D 对象
 2. bevel
 3. miter [默认]
 
-###7.lineWidth
+###8.lineWidth
 
 指定了绘制线条的宽度。
 
@@ -76,31 +76,31 @@ canvas context2D 对象
 
 线条在路径中居中，两侧各占一半的宽度。
 
-###8.miterLimit
+###9.miterLimit
 
 指定了斜面长度与线条长度的比例（当 `lineJoin="miter"` 时有效。默认为 10）。
 
-###9.shadowBlur
+###10.shadowBlur
 
 指定了阴影的羽化程度（默认为 0）。
 
-###10.shadowColor
+###11.shadowColor
 
 指定了阴影的颜色。
 
-###11.shadowOffsetX
+###12.shadowOffsetX
 
 指定了阴影的x偏移量。
 
-###12.shadowOffsetY
+###13.shadowOffsetY
 
 指定了阴影的y偏移量。
 
-###13.strokeStyle
+###14.strokeStyle
 
 指定了用于绘制路径的颜色、模式或渐变。
 
-###textAlign
+###15.textAlign
 
 指定了文本对齐方式。
 
@@ -112,7 +112,7 @@ canvas context2D 对象
 4. right
 5. center
 
-###textBaseLine
+###16.textBaseLine
 
 指定了文本基线的位置。
 
@@ -140,7 +140,7 @@ closePath()
 
 moveTo(x,y)
 
-设置当前点/位置（开始新的路径。如果之前存在子路径包含所指定的点，则删除该子路径）。
+设置当前点/位置。
 
 参数：
 >1.x 横坐标  
@@ -368,3 +368,5 @@ restore()
 恢复栈中画布最近的状态。
 
 ###数据导出
+
+@TODO need to be review
