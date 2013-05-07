@@ -211,12 +211,107 @@
 
 ###10.button
 
+`<button>` 元素对应了 `<input>` 元素的 `type="button|reset|submit"` 三种类型。标签内的文本作为显示在按钮中的文本。
+
+	<button type="button">button name</button>
+
+属性：
+
+1.autofocus
+
+2.disabled
+
+3.form
+
+4.formaction
+
+仅对 `type="submit"` 的按钮有效。
+
+5.formenctype
+
+仅对 `type="submit"` 的按钮有效。
+
+6.formnovalidate
+
+仅对 `type="submit"` 的按钮有效。
+
+7.formtarget
+
+仅对 `type="submit"` 的按钮有效。
+
+8.name
+
+9.type
+
+用于指定按钮的类型。
+
+属性值：
+>1.button 普通按钮（默认值）
+>2.reset 重置按钮
+>3.submit 提交按钮
+
+10.value
+
+用于指定按钮的值，该值会被提交到服务器端。
+
 ###11.progress
+
+`<progress>` 用来定义进度条。
+
+	<progress max="5" value="3">60%</progress>
+
+属性：
+
+1.max
+
+用于定义进度的最大值。
+
+2.value
+
+用于定义进度的当前值。
 
 ###12.meter
 
+`<meter>` 用于定义刻度标尺。
+
+	<meter min="0" max="10" low="3" high="8" value="5">50%</meter>
+
+属性：
+
+1.max
+
+用于定义刻度的最大值。
+
+2.min
+
+用于定义刻度的最小值。
+
+3.optimum
+
+用于定义刻度的最佳值。
+
+4.high
+
+用于定义刻度的范围上限。
+
+5.low
+
+用于定义刻度的范围下限。
+
+6.value
+
+用于定义当前的刻度值。
+
 ###13.datalist
 
+`<datalist>` 与 `<input>` 元素中的文本框配合使用，用于定义候选列表。`<option>` 元素用于向列表中插入项目。
 
+	<datalist id="datalist">
+		<option value="item1">item1</option>
+		<option value="item2">item2</option>
+	</datalist>
+	<input type="text" list="datalist" />
+
+需要在 `<input>` 元素中设置 `list="datalist_id"` 来指定其候选列表。
 
 command keygen output
