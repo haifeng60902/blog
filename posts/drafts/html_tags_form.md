@@ -3,6 +3,8 @@
 
 表单主要用来向服务器输入和提交各种数据，主要包括文本输入区域，单选、复选按钮，列表，时间日期组件等。
 
+`name` 和 `value` 属性是表单元素中最重要的两个属性，它们会被成对地发送到服务器端。
+
 标签
 ----
 
@@ -122,11 +124,90 @@
 
 ###6.select
 
+`<select>` 元素用于创建下拉列表。`<option>` 元素可以为下拉列表添加项目。
+
+	<select>
+		<option value="item1">item1</option>
+		<option value="item2">item2</option>
+	</select>
+
+属性：
+
+1.autofocus
+
+2.data
+
+提供自动插入的数据 URL。
+
+属性值：
+>1.data_url 插入的数据 URL
+
+3.disabled
+
+4.form
+
+5.multiple
+
+指定是否可以多选。
+
+属性值：
+>1.true 多选
+>2.false 单选（默认）
+
+6.name
+
 ###7.option
+
+`<option>` 元素用于嵌入到 `<select>` 或 `<datalist>` 元素中，为列表提供选项。
+
+属性：
+
+1.disabled
+
+2.label
+
+用于指定当前项目的标签（显示文本）。
+
+3.selected
+
+指定当前项目是否被选中。
+
+属性值：
+>1.selected 当前项被选中
+
+4.value
+
+用于指定当前项目的值（该值会作为所在 `<select>` 或 `<datalsit>` 元素的值发送到服务器端）。
+
+属性值：
+>1.value_text 当前项目的值
 
 ###8.optgroup
 
+`<optgroup>` 元素用于对 `<option>` 元素进行分组。
+
+	<select>
+		<optgroup label="group1">
+			<option value="item1">item1</option>
+			<option value="item2">item2</option>
+		</optgroup>
+		<optgroup label="group2">
+			<option value="item3">item3</option>
+			<option value="item4">item4</option>
+		</optgroup>
+	</select>
+
+属性：
+
+1.label
+
+用于指定分组的标签（显示文本）。
+
+2.disabled
+
 ###9.input
+
+参考：tag_input
 
 ###10.button
 
