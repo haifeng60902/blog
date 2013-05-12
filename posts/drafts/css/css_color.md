@@ -1,7 +1,7 @@
 CSS 颜色
 ========
 
-CSS 中的许多属性都和颜色有关，比如：
+CSS 中的许多属性都和颜色有关，如：
 
 	color 文本颜色
 	background-color 背景颜色
