@@ -72,3 +72,82 @@ class 选择器在 `。` 后跟随 `class` 名，匹配所有 `class="class"` �
 
 `<h3>` `<p>` `<div>` 三个元素都会被选中。
 
+属性选择器
+---------
+
+###1.[attr]
+
+[attr] 选择器匹配所有包含 `attr` 属性的元素：
+
+	// HTML
+	<h3 display="none"></h3>
+	<p></p>
+	<div></div>
+	// CSS
+	[display]{
+		// declarations
+	}
+
+`<h3>` 元素会被选中。
+
+###2.[attr="value"]
+
+[attr="value"] 选择器会匹配所有 `attr` 属性值为 `value` 的元素：
+
+	// HTML
+	<h3 display="none"></h3>
+	<p></p>
+	<div display="inline"></div>
+	// CSS
+	[display="inline"]{
+		// declarations
+	}
+
+`<div display="inline">` 会被选中。
+
+###3.[attr~="value"]
+
+[attr~="value"] 选择器会匹配所有 `attr` 属性值包含单词 `value` 的元素：
+
+	// HTML
+	<h3 title="head element"></h3>
+	<p></p>
+	<div title="div element"></div>
+	// CSS
+	[title~="head"]{
+		// declarations
+	}
+
+`<h3 title="head element">` 会被选中。
+
+###4.[attr|="value"]
+
+[attr|="value"] 选择器会匹配所有 `attr` 属性值为 `value` 或以 `value-` 开头的元素：
+
+	// HTML
+	<h3 title="aelement"></h3>
+	<p></p>
+	<div title="belement"></div>
+	// CSS
+	[title~="head"]{
+		// declarations
+	}
+
+`<div title="belement">` 会被选中。
+
+###5.[attr^="value"]
+
+[attr^="value"] 选择器会匹配所有 `attr` 属性值以字符串 `value` 开头的元素：
+
+###6.[attr$="value"]
+
+[attr^="value"] 选择器会匹配所有 `attr` 属性值以字符串 `value` 结尾的元素：
+
+###7.[attr*="value"]
+
+[attr^="value"] 选择器会匹配所有 `attr` 属性值包含字符串 `value` 的元素：
+
++ 伪元素选择器
++ 伪类选择器
++ 关系选择器
++ 选择器组合
