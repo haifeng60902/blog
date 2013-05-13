@@ -189,19 +189,19 @@ class 选择器在 `。` 后跟随 `class` 名，匹配所有 `class="class"` �
 
 ###1.:first-letter 1
 
-e|es:first-letter 用于选择 e|es 的首个字母：
+e|es:first-letter 用于为 e|es 的首个字母添加样式：
 
 ###2.:first-line 1
 
-e|es:first-line 用于选择 e|es 的首行：
+e|es:first-line 用于为 e|es 的首行添加样式：
 
 ###3.:before 2
 
-e|es:before 用于在 e|es 元素的内容之前插入新的内容：
+e|es:before 用于在 e|es 元素的内容之前插入新的内容，并为之添加样式：
 
 ###4.:after 2
 
-e|es:after 用于在 e|es 元素的内容之后插入新的内容：
+e|es:after 用于在 e|es 元素的内容之后插入新的内容，并为之添加样式：
 
 ###5.::selection 3
 
@@ -326,13 +326,23 @@ e|es:empty 用于设置 _空的_ （无子元素和文本节点） e 元素的�
 
 ###1.a b
 
+a b 用于设置嵌套在 a 中所有的 b 元素的样式（祖先元素与后代元素）：
+
 ###2.a>b
+
+a b 用于设置以 a 元素为父元素的 b 元素的样式（父元素与子元素）：
 
 ###3.a+b
 
+a b 用于设置紧跟在 a 中之后的 b 元素的样式（相邻的元素，具有相同的父元素）：
+
 ###4.a~b
+
+a b 用于设置紧跟在 a 中之后的所有 b 元素的样式（兄弟元素，具有相同的父元素）：
 
 选择器组合
 ---------
 
 ###1.a,b
+
+a,b 用于选择所有的 a 元素和 b 元素：
