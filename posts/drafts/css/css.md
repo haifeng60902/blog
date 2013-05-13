@@ -146,7 +146,7 @@ __CSS 注释__ 的语法如下：
 
 ###选择器
 
-参考：css_selecter
+参考：css_selectors
 
 ###样式属性
 
