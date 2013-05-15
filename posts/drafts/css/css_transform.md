@@ -4,6 +4,7 @@
 变换允许对元素进行旋转、缩放、拉伸和变形等操作。
 
 transform
+---------
 
 设置元素的变换。
 
@@ -31,6 +32,7 @@ transform
 20. perspective(n) 3D 透视
 
 transform-origin
+----------------
 
 设置转换的基点（默认为 (50%,50%,0)，也就是元素的中心点）。
 
@@ -57,10 +59,12 @@ transform-origin
 >尺寸值
 
 transform-style
+---------------
 
 ？？
 
 perspective
+-----------
 
 设置 3D 元素的查看位置距元素透视基点的距离（透视距离）。
 
@@ -70,6 +74,7 @@ perspective
 2. 尺寸值 透视距离（单位：px）
 
 perspective-origin
+------------------
 
 设置 3D 元素透视基点的位置。
 
@@ -79,6 +84,7 @@ perspective-origin
 2. y-axis
 
 backface-visibility
+-------------------
 
 设置元素的背面是否可见。
 

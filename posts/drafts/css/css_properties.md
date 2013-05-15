@@ -43,5 +43,7 @@ CSS 属性
 过渡(transition)
 ---------------
 
+参考：css_transition
+
 动画(animation)
 --------------
