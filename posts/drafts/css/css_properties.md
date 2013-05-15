@@ -29,7 +29,38 @@ CSS 属性
 盒模型(box)
 ----------
 
-定位(dimension)
+display
+
+设置元素的盒类型。
+
+属性值：
+
+1. none 不显示（不可见，也不占据空间）
+2. block 块级元素
+3. inline 内联元素（默认）
+4. inline-block 内联块元素
+5. list-item 列表项
+6. run-in 根据上下文判断为 block 或 inline
+7. table 表格（类似 `<table>`）
+8. inline-table 内联表格
+9. table-row-group 表格的行分组（类似 `<tbody>`）
+10. table-header-group 表格的行分组（类似 `<thead>`）
+11. table-footer-group 表格的行分组（类似 `<tfoot>`）
+12. table-row 表格的行（类似 `<tr>`）
+13. table-column-group 表格列分组（类似 `<colgroup>`）
+14. table-column 表格列（类似 `<col>`）
+15. table-cell 表格单元格（类似 `<td>`）
+16. table-caption 表格标题（类似 `<caption>`）
+
+###尺寸(dimension)
+
+参考：css_dimension
+
+###背景(background)
+
+参考：css_background
+
+定位(positioning)
 --------------
 
 浮动(float)
@@ -47,3 +78,4 @@ CSS 属性
 
 动画(animation)
 --------------
+

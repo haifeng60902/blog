@@ -2,6 +2,7 @@
 ===============
 
 transition-property
+-------------------
 
 设置应用过渡效果的 CSS 属性。
 
@@ -12,6 +13,7 @@ transition-property
 3. property_list 属性名称列表（多个值之间，使用 `,` 分隔）
 
 transition-duration
+-------------------
 
 设置过渡持续的时间。
 
@@ -22,6 +24,7 @@ transition-duration
 3. 0 无效果（默认）
 
 transition-timing-function
+--------------------------
 
 设置过渡效果的速度曲线。
 
@@ -36,6 +39,7 @@ transition-timing-function
 cubic-bezier 参数在线生成工具：<http://cubic-bezier.com/>
 
 transition-deley
+----------------
 
 设置过渡延迟时间。
 
@@ -46,6 +50,7 @@ transition-deley
 3. 0 无效果（默认）
 
 transition
+----------
 
 在同一个声明中设置过渡属性。
 
