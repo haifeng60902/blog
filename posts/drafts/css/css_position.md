@@ -49,3 +49,20 @@ z-index
 
 1. auto 自动（默认，与父元素相同）
 2. 整数
+
+vertical-align
+
+设置元素纵向定位的方式。
+
+属性值：
+
+1. baseline 位于父元素的基线上（块级元素的顶部，行内元素的底部。默认）
+2. sub 对齐文本底部
+3. super 对齐文本顶部
+4. top 顶端对齐
+5. text-top 与文本顶端对齐
+6. middle 居中
+7. bottom 低端对齐
+8. text-bottom 与文本低端对齐
+9. 尺寸值
+10. 百分值

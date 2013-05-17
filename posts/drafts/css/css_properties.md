@@ -115,6 +115,15 @@ box-shadow
 
 	box-shadow:2px 2px 5px #CCC inset,5px 5px 10px #AAF;
 
+可伸缩盒模型（flexible-box）
+-------------------------
+
+内容生成(generated-content)
+--------------------------
+
+多列(multi-column)
+-----------------
+
 定位(positioning)
 ----------------
 
@@ -125,7 +134,24 @@ box-shadow
 
 float
 
+设置元素是否浮动。
+
+属性值：
+
+1. none 不浮动（默认）
+2. left 向左浮动
+3. right 向右浮动
+
 clear
+
+设置清除是否浮动。
+
+属性值：
+
+1. none 不清除浮动（默认）
+2. left 清除左侧浮动
+3. right 清除右侧浮动
+4. both 清除两侧的浮动
 
 变换(transform)
 --------------
@@ -140,3 +166,17 @@ clear
 动画(animation)
 --------------
 
+其他(other)
+----------
+
+clip
+
+cursor
+
+visibility
+
+resize
+
+appearance
+
+box-sizing
