@@ -116,6 +116,8 @@ box-shadow
 多列(multi-column)
 -----------------
 
+参考：css_column
+
 定位(positioning)
 ----------------
 
