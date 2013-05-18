@@ -108,8 +108,10 @@ box-shadow
 可伸缩盒模型（flexible-box）
 -------------------------
 
-内容生成(generated-content)
---------------------------
+内容生成(content)
+----------------
+
+参考：css_content
 
 多列(multi-column)
 -----------------
