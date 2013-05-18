@@ -80,6 +80,10 @@ display
 
 参考：css_background
 
+###背景渐变(background-gradient)
+
+
+
 ###圆角(border-radius)
 
 参考：css_border-radius
@@ -104,6 +108,10 @@ box-shadow
 在 box-shadow 中设置多组阴影数据，即可实现多重阴影：
 
 	box-shadow:2px 2px 5px #CCC inset,5px 5px 10px #AAF;
+
+###溢出（overflow）
+
+参考：css_overflow
 
 可伸缩盒模型（flexible-box）
 -------------------------
@@ -161,6 +169,11 @@ clear
 --------------
 
 参考：css_animation
+
+滤镜（filter）
+------------
+
+opacity
 
 其他(other)
 ----------
