@@ -56,8 +56,6 @@ display
 
 参考：css_dimension
 
-###背景(background)
-
 ###外边距(margin)
 
 参考：css_margin
@@ -84,15 +82,7 @@ display
 
 ###圆角(border-radius)
 
-border-top-left-radius
-
-border-top-right-radius
-
-border-bottom-left-radius
-
-border-bottom-right-radius
-
-border-radius
+参考：css_border-radius
 
 ###盒阴影(box-shadow)
 
