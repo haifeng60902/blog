@@ -4,6 +4,7 @@
 列表样式属性针对 `<ul>` 或 `<ol>` 元素有效。
 
 list-style-type
+---------------
 
 设置列表项标记的样式。
 
@@ -32,6 +33,7 @@ list-style-type
 21. katakana-iroha 片假名（I,RI,HA,NI,HO...）
 
 list-style-image
+----------------
 
 将图像设置为列表项标记。
 
@@ -42,6 +44,7 @@ list-style-image
 1. url(url) 图像的 URL
 
 list-style-position
+-------------------
 
 设置列表项标记的位置。
 
@@ -51,6 +54,7 @@ list-style-position
 2. inside 位于项目文本内
 
 list-style
+----------
 
 在同一个声明中设置列表项标记的样式。
 

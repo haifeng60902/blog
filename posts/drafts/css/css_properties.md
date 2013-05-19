@@ -29,7 +29,7 @@ CSS 属性
 盒模型(box)
 ----------
 
-display
+###display
 
 设置元素的盒类型。
 
@@ -117,7 +117,7 @@ display
 浮动(float)
 ----------
 
-float
+###float
 
 设置元素是否浮动。
 
@@ -127,7 +127,7 @@ float
 2. left 向左浮动
 3. right 向右浮动
 
-clear
+###clear
 
 设置清除是否浮动。
 
@@ -156,44 +156,12 @@ clear
 滤镜（filter）
 ------------
 
-opacity
-
-设置元素的透明度。
-
-属性值：
-
-1. alpha 透明度（0.0-1.0 0.0 代表完全透明，1.0 代表完全不透明）
-
-filter
-
-滤镜，主要应用于图像。
-
-属性值：
-
-1.grayscale() 灰度
-
-2.sepia() 褐色
-
-3.saturate() 饱和度
-
-4.hue-rotate() 色向反转
-
-5.invert() 反色
-
-6.opacity() 透明度
-
-7.brightness() 亮度
-
-8.contrast() 对比度
-
-9.blur() 模糊
-
-10.drop-shadow() 阴影
+参考：css_filter
 
 其他(other)
 ----------
 
-clip
+###clip
 
 设置元素的可见形状及尺寸（裁剪）。
 
@@ -202,7 +170,7 @@ clip
 1. auto 不裁剪（默认）
 2. shap 设置形状及大小（仅支持：rect(top,right,bottom,left)）
 
-cursor
+###cursor
 
 设置鼠标外形。
 
@@ -225,7 +193,7 @@ cursor
 15. wait 等待光标（表/沙漏）
 16. help 帮助光标（问号/气球）
 
-visibility
+###visibility
 
 设置元素是否可见。
 
@@ -233,7 +201,7 @@ visibility
 2. hidden 不可见（仍占据原位置及空间）
 3. collapse 在表格中，隐藏行/列；在其他元素中，类似于 hidden
 
-resize
+###resize
 
 设置元素是否可调整大小。
 
@@ -244,11 +212,11 @@ resize
 3. vertical 可调整高度
 4. both 可调整宽度和高度
 
-appearance
+###appearance
 
 设置元素的呈现方式。
 
-box-sizing
+###box-sizing
 
 设置元素盒模型的计算方式。
 
