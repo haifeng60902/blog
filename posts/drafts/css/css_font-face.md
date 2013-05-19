@@ -1,7 +1,10 @@
 自定义字体(@font-face)
 ====================
 
-@font-face 用于声明自定义字体：
+@font-face
+----------
+
+用于声明自定义字体：
 
 	@font-face{
 		font-family:font-name;
@@ -30,13 +33,10 @@
 
 可选属性用于定义自定义字体的默认样式。
 
-1.font-stretch
-
-2.font-style
-
-3.front-weight
-
-4.unicode-range
++ font-stretch
++ font-style
++ front-weight
++ unicode-range
 
 设置字体支持的 UNICODE 字符范围。
 
