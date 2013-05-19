@@ -2,6 +2,7 @@
 ================
 
 content
+-------
 
 与 :before 和 :after 伪元素配合，用于插入内容。
 
@@ -26,6 +27,7 @@ content
 	}
 
 counter-reset
+-------------
 
 创建或重置计数器。
 
@@ -35,6 +37,7 @@ counter-reset
 2. counter n 定义计数器 counter 并指定初始值 n（可选，默认为 0）
 
 counter-increment
+-----------------
 
 设置计数器的增量。
 
@@ -44,6 +47,7 @@ counter-increment
 2. counter n 设置计数器 counter 的增量为 n（正数、负数或 0。可选，默认为 1）
 
 quotes
+------
 
 设置包含嵌套引用的引号。
 
