@@ -56,7 +56,7 @@ mm 代表毫米值。
 计算
 ----
 
-calc(exp)
+###calc(exp)
 
 计算表达式 exp 的值。
 

@@ -2,6 +2,7 @@
 =========
 
 color
+-----
 
 设置文本的颜色。
 
@@ -9,9 +10,8 @@ color
 
 1. css_color
 
----
-
 direction
+---------
 
 设置文本的方向（书写方向）。
 
@@ -21,6 +21,7 @@ direction
 2. rtl 从右到左
 
 unicode-bidi
+------------
 
 设置文本的方向。
 
@@ -30,9 +31,8 @@ unicode-bidi
 2. embed
 3. bidi-override
 
----
-
 letter-spacing
+--------------
 
 设置字符间距。
 
@@ -42,6 +42,7 @@ letter-spacing
 2. CSS 尺寸值（可以为负值）
 
 line-height
+-----------
 
 设置行高。
 
@@ -53,6 +54,7 @@ line-height
 4. 百分值（与字体大小相乘，作为行间距）
 
 text-transform
+--------------
 
 设置字母大小写的方式。
 
@@ -64,6 +66,7 @@ text-transform
 4. lowercase 所有字母小写
 
 word-spacing
+------------
 
 设置词间距。
 
@@ -72,9 +75,8 @@ word-spacing
 1. normal 默认
 2. CSS 尺寸值（可以为负值）
 
----
-
 text-align
+----------
 
 设置文本的对齐方式。
 
@@ -88,6 +90,7 @@ text-align
 `text-align:justify;` 时，可使用 `text-justify` 属性设置两端对齐的方式。
 
 text-justify
+------------
 
 设置两端对齐的方式。
 
@@ -102,6 +105,7 @@ text-justify
 7. kashida
 
 text-decoration
+---------------
 
 设置文本的装饰效果。
 
@@ -113,6 +117,7 @@ text-decoration
 4. line-through 删除线
 
 text-indent
+-----------
 
 设置文本块中首行的缩进值。
 
@@ -122,6 +127,7 @@ text-indent
 2. 百分值（与父元素的宽度相乘，作为首行的缩进值）
 
 text-shadow
+-----------
 
 设置文本阴影。
 
@@ -132,21 +138,26 @@ text-shadow
 3. blur 模糊值（可选，默认为 0）
 4. color 阴影的颜色（可选，默认为文本的颜色）
 
----
-
 hanging-punctuation
+-------------------
 
 punctuation-trim
+----------------
 
 text-align-list
+---------------
 
 text-emphasis
+-------------
 
 text-outline
+------------
 
 text-overflow
+-------------
 
 white-space
+-----------
 
 规定如何处理元素中的空白字符。
 
@@ -159,6 +170,7 @@ white-space
 5. pre-line 保留换行符，合并其他字符
 
 text-wrap
+---------
 
 设置文本换行规则。
 
@@ -170,6 +182,7 @@ text-wrap
 4. suppress 压缩元素中换行？？
 
 word-break
+----------
 
 设置自动换行的规则。
 
@@ -180,6 +193,7 @@ word-break
 3. keep-all 只在空格或连字符出换行
 
 word-wrap
+---------
 
 设置长文本或 URL 的换行方式。
 
