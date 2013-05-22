@@ -111,7 +111,7 @@ __注意：__ `JavaScript` 允许在标识符使用任意的 Unicode 字母，�
 
 `JavaScript` 中的数字不区分整数和浮点数，统一使用浮点数表示（类似于其他语言中的 double 类型）。
 
-数字的范围是 -2^53~2^53。
+数字的范围是 -2^53~2^53。当运算结果超出该范围时，会返回无穷大（Infinity）或无穷小（-Infinity）。计算 0/0 时，会返回非数字（NaN，not-a-number）。
 
 整数值的表示形式：
 
@@ -139,6 +139,193 @@ __注意：__ `JavaScript` 允许在标识符使用任意的 Unicode 字母，�
 
 参考：
 
+__注意：__ 浮点数的运算是不精确的。
+
 Math 对象也提供了许多数值运算函数。
 
 参考：Math
+
+与数字对应的对象是 Number。
+
+参考：Number
+
+####2.布尔值
+
+`JavaScript` 提供了布尔值，用来表示真（true）或假（false）。布尔值通常用作判断或循环的条件。
+
+下列运算结果或值在判断时会当做 false：
+
++ undefined
++ null
++ 0
++ -0
++ NaN
++ ""（空字符串）
+
+其他值都被当做 true。
+
+参考：比较运算符、逻辑运算符、控制结构
+
+####3.文本
+
+`JavaScript` 中的字符串与其他语言中的 String 类似，其行为和使用方式也与数组相似。
+
+字符串（及数组）的索引值从 0 开始。
+
+字符串值使用 `""` 包含。如果需要将同一个字符串换行书写，行结尾需要添加 `\`：
+
+	var str="1234\
+			 5678";
+
+转义字符
+
+如果需要在字符串中添加特殊字符（如换行符、引号等），需要使用返斜线（\）：
+
+	var str="This\'s a demo"; // =This's a demo
+
+转义字符列表：
+
++ \o NUL（\u0000）
++ \b 退格符（\u0008）
++ \t 制表符（\u0009）
++ \n 换行符（\u000A）
++ \v 垂直制表符（\u000B）
++ \f 换页符（\u000C）
++ \r 回车符（\u000D）
++ \" 双引号（\u0022）
++ \' 单引号（\u0027）
++ \\ 反斜线（\u005C）
++ \uabcd 通过四位十六进制数 abcd 指定一个 Unicode 字符
+
+`+` 运算可以将字符串与字符串，或字符串与数字连接成字符串：
+
+	var str1="Hello"+" world"; // str1="Hello world"
+	var str2="HTML"+4.01; // str2="HTML4.01"
+
+要访问字符串中的某个字符，直接使用类似于数组的方式即可：
+
+	var str="HTML5";
+	var x=str[1]; // x="T"
+
+要获取字符串的总长度，可访问 string.length 属性：
+
+	var str="HTML5";
+	var x=str.length; // x=5
+
+字符串对应的对象是 String。String 对象提供了更多字符串的操作函数。
+
+参考：String
+
+####4.null
+
+null 代表空值，就是什么都没有。null 是一个对象。
+
+####5.undefined
+
+undefined 代表变量未初始化（未赋值）。
+
+###对象
+
+`JavaScript` 中的对象是一种复合值，它是 名称（属性）-值 对的无序集合。除了前面五种原始值，`JavaScript` 中的一切值（包括函数）都是对象。
+
+	var point={x:0,y:0};
+
+多个属性之间，使用 `,` 分隔，最后一个属性之后不加 `,`。多个属性也可以分行写。对象声明要以 `;` 结尾。
+
+_属性_ 可以是任意标识符。当属性中存在空格或连字符（-）是，属性必须用字符串表示：
+
+	var people={
+		"first name":"Junqing",
+		"last name":"Hu"
+	};
+
+_属性值_ 可以为任意的对象或原始值：
+
+	var computer={
+		"disk":{
+			capacity:500,
+			type:"SSD"
+		}
+	};
+
+对象不仅可以有属性，还可以有 _方法_ 。方法也是作为属性的值存在的：
+
+	var line={
+		p1:point1,
+		p2:point2
+	};
+	line.length=function(){
+		var x=this.p2.x-this.p1.x;
+		var y=this.p2.y-this.p1.y;
+		return Math.sqrt(x*x+y*y);
+	}; // 为 line 对象添加 length() 方法
+
+对象是动态的，刻意随意地 _添加和删除属性_ ：
+
+	line.color="#AAF"; // 为 line 对象添加 color 属性
+	？？
+
+####对象声明
+
+声明对象有两种方式：
+
+1.直接声明
+
+	var point={x:0,y:0};
+
+2.通过 new 创建
+
+	var object={}; // 创建空对象。等同于 new Object()
+	var date=new Date(); // 创建新的 Date 对象
+
+该方式调用了对象的构造函数。
+
+参考：自定义对象
+
+原型属性
+
+`JavaScript` 中，所有的对象（除了 null）都包含了一个原型对象，该对象继承自 Object 对象的 prototype 属性（对象）。对象的原型是对象继承和扩展的关键属性。
+
+3.Object.create()（继承）
+
+Object.create() 函数用于创建新的对象：
+
+	var x=Object.create({x:0,y:0}); // x 继承了传入的对象
+
+可以传入 Object.prototype 来创建空对象。当传入 null 对象时，则创建了一个没有原型的对象。该对象没有任何属性和方法。
+
+用于通过继承创建对象的工具函数：
+
+	function inherit(p){
+		if(p==null){ // 检测传入对象是否为 null
+			throw TypeError();
+		}
+		if(Object.create){ // 检测 Object.create() 是否可用
+			return Object.create(p);
+		}
+		var t=typeof p;
+		if(t!=="object"&&t!=="function"){ // 检测是否为有效对象
+			throw TypeError();
+		}
+		function f(){}; // 定义新对象的构造函数
+		f.prototype=p; // 使新对象的原型继承自 p
+		return new f(); // 通过构造函数创建对象
+	}
+
+####对象的属性
+
+查询
+
+设置
+
+getter 和 setter
+
+删除
+
+检测
+
+遍历（枚举）
+
+属性的特征
+
+####对象的方法
