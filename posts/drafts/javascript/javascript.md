@@ -316,16 +316,51 @@ Object.create() 函数用于创建新的对象：
 
 查询
 
+获取对象的属性值，有两种方式：
+
+	var x=point.x; // 获取 point 的 x 属性，等同于 point["x"]
+	var name=people["first name"]; // 获取 people 的 first name 属性
+
+两种方式是等同的，第二种方式的方括号中为属性名的字符串形式。当属性名为字符串形式时，只能使用第二种方式。
+
+如果访问的属性不存在，则返回 undefined。
+
 设置
+
+对应于属性的查询方式，属性的设置方式也有两种：
+
+	point.x=10; // 等同于 point["x"]=10
+	people["first name"]="Junqing";
+
+如果设置的属性不存在，则为对象 _新建属性_ 。
 
 getter 和 setter
 
 删除
 
+使用 delete 操作符，可以从对象中删除属性：
+
+	delete point.x; // 删除 point 的 x 属性
+
+delete 操作是能删除对象的自有属性，不能删除继承的属性。
+
 检测
 
-遍历（枚举）
+in 操作符可以检测指定的属性是否属于对象：
+
+	"x" in point; // true x 属性属于 point 对象
+	"z" in point; // false z 属性不属于 point 对象
+
+hasOwnProperty() 方法可以检测指定的属性是否是对象的自有属性：
+
+	point.hasOwnProperty("y"); // true y 是 point 的自有属性
+
+类似于 in 操作，可以直接判断某个属性是否为 undefined，来确定它是否存在：
+
+	point.x !== undefined; // true point 中包含 x 属性
 
 属性的特征
+
+遍历（枚举）
 
 ####对象的方法
