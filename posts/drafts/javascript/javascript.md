@@ -336,6 +336,28 @@ Object.create() 函数用于创建新的对象：
 
 getter 和 setter
 
+getter 和 setter 所对应的属性称为“存取器属性”，它们是用来读写属性的方法。
+
+存取器属性的定义：
+
+	var num={
+		x:1,
+		y:2,
+		get sum(){
+			return this.x+this.y;
+		},
+		set sum(value){
+			this.x=this.y=value;
+		}
+	};
+
+sum 同时作为 num 的属性，以及属性的读取和设置函数。（当仅有 get 方法时，该属性为只读属性）
+
+存取器属性的使用：
+
+	var n=circle.r; // 获取 num 的 sum 属性
+	num.sum=5; // 设置 num 的 sum 属性
+
 删除
 
 使用 delete 操作符，可以从对象中删除属性：
@@ -361,6 +383,45 @@ hasOwnProperty() 方法可以检测指定的属性是否是对象的自有属性
 
 属性的特征
 
+对象的数据属性包含四个特征：
+
++ 值（value）
++ 可写（writable）
++ 可枚举（enumerable）
++ 可配置（configurable）
+
+对象的存取器属性也包含四个特征：
+
++ 读取（get）
++ 写入（set）
++ 可枚举（enumerable）
++ 可配置（configurable）
+
+存取器属性没有值，其可写特征由是否存在 setter 决定。
+
+获取属性的特征描述：
+
+	Object.getOwnPropertyDescriptor(obj.prop);
+
+数据属性的返回值：
+
+	{value: value, writable: true|false, enumerable: true|false, configurable: true|false}
+
+存取器属性的返回值：
+
+	{get: getter, set: setter, enumerable: true|false, configurable: true|false}
+	
+如果属性为继承属性，或属性不存在，则返回 undefined。
+
+设置属性特征：
+
+	Object.definePeoperty(obj,prop,{descriptor});
+	Object.definePeoperty(obj,{prop,descriptor});
+
+属性可以是已存在的，也可以新建属性。
+
 遍历（枚举）
+
+对象的序列化和 JSON 解析
 
 ####对象的方法
