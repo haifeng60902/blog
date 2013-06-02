@@ -40,8 +40,30 @@ obj1.isPrototypeOf(obj2) 可用来检测 obj1 是否为 obj2 的原型。
 
 类属性是一个代表对象类型的字符串。
 
+可使用 obj.toString() 方法获取特征字符串：
+
+	var obj=new Object();
+	var class_text=obj.toString(); // [object Object]
+
+许多对象/类的 toString() 方法都已经重写，可以使用 typeof obj 访问对象的特征字符串：
+
+	var str="string";
+	var class_text=typeof str; // string
+
+###3.可扩展性
+
+可扩展性决定了是否可为对象添加新的属性。所有内置对象和自定义对象默认为可扩展的。
+
+使用 Object.isExtensible(obj) 函数，可探测 obj 对象是否可扩展。
+
+使用 Object.preventExtensions(obj) 函数，可将对象设置为不可扩展，且该转换不可逆。
+
 自定义属性
 ----------
+
+自定义属性可以在定义对象时制定，也可以在对象定义之外动态添加和删除。
+
+参考：属性操作
 
 属性的特征
 ----------

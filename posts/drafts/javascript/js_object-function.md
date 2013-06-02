@@ -18,5 +18,38 @@
 内置方法
 --------
 
+###1.toString()
+
+该方法通常用来将对象转换为字符串形式输出。默认的方法继承自 Object 对象：
+
+	var obj=new Object();
+	var text=obj.toString(); // [object Object]
+
+多数对象通常需要重写该方法，来实现自己的功能。
+
+###2.toLocaleString()
+
+该方法返回对象的本地化表示。
+
+Date 和 Number 对象重写了该方法。
+
+###3.toJSON()
+
+Object.prototype 并未定义此方法，但当使用 JSON.stringify(obj) 序列化对象时，会调用对象的 toJSON() 方法。所以可以重写该方法，来定制序列化的方式。
+
+###4.valueOf()
+
+当需要将对象转换为原始值时，会调用该方法。
+
 自定义方法
 ----------
+
+直接为对象的属性赋予 function(){} 对象，即可为对象添加函数，该属性将作为函数名：
+
+	var obj={
+		fun=function(){ // 声明函数
+			// some code
+		};
+	};
+	// 调用函数
+	obj.fun();
