@@ -60,6 +60,8 @@ JavaScript 语法
 数组
 ----
 
+参考：js_array
+
 变量
 ----
 
