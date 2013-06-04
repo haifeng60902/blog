@@ -184,3 +184,146 @@ callback 为指定的排序函数，该参数是可选的。如果省略，则�
 
 返回值：
 >length 数组更新后的长度
+
+###13.forEach()
+
+遍历数组，并可将数组元素、元素索引及数组本身作为 callback 的参数。
+
+语法：
+>array.forEach(callback);
+
+参数：
+>1.callback 作为参数的函数
+
+callback：
+
+	array.forEach(function([elmt],[i],[array]){
+		// 函数操作
+	});
+
+callback 可将数组元素（elmt）、元素索引（i）及数组本身（array）作为参数使用。后两个参数是可选的：
+
+	array.forEach(function(elmt){});
+	array.forEach(function(elmt,i){});
+	array.forEach(function(elmt,i,a){});
+
+返回值：
+>无
+
+###14.map()
+
+使用传入的函数对每个数组元素进行处理，并将所有结果作为新的数组返回。
+
+语法：
+>array.map(function(elmt){});
+
+参数：
+>1.callback 用于处理数组元素的函数
+
+callback 必须满足两个条件：
+>1.使用数组元素作为参数（elmt）  
+>2.有返回值
+
+callback 的返回值将存储在新的数组中，并作为 map() 操作的返回值。map() 操作不改变原数组。
+
+返回值：
+>array 包含处理结果的数组
+
+###15.filter()
+
+用于筛选（过滤）数组元素，并将过滤结果作为数组返回。
+
+语法：
+>array.filter(function(elmt){});
+
+参数：
+>1.callback 用于筛选数组元素的函数
+
+callback 必须满足两个条件：
+>1.使用数组元素作为参数（elmt）  
+>2.有返回值，且返回值可用于判断（true/false）
+
+callback 用于处理每一个数组元素，如果返回 true，则该元素符合筛选条件。
+
+返回值：
+>array 包含筛选结果的数组
+
+###16.every()
+
+用于判定数组元素的特征。相当于全称量词 ∀。
+
+语法：
+>array.every(function(elmt){});
+
+参数：
+>1.callback 用于筛数组元素的函数
+
+callback 必须满足两个条件：
+>1.使用数组元素作为参数（elmt）  
+>2.有返回值，且返回值可用于判断（true/false）
+
+返回值：
+>bool 如果 __所有__ 元素都符合判定规则，则返回 true；否则，返回 false。
+
+###17.some()
+
+用于判定数组元素的特征。相当于存在量词 ∃。
+
+语法：
+>array.some(function(elmt){});
+
+参数：
+>1.callback 用于筛数组元素的函数
+
+callback 必须满足两个条件：
+>1.使用数组元素作为参数（elmt）  
+>2.有返回值，且返回值可用于判断（true/false）
+
+返回值：
+>bool 如果 __至少__ 一个元素符合判定规则，则返回 true；否则，返回 false。
+
+###18.reduce()
+
+使用指定的函数对数组元素进行组合或比较，可用于对数组元素求和、求积或筛选最大值、最小值。
+
+语法：
+>array.reduce(function(elmt1,elmt2){}[,value]);
+
+参数：
+>1.callback 用于处理数组元素的函数
+>2.value 作为 callback 参数的默认值
+
+callback：
+
+	array.reduce(function(x,y){ // 求所有元素的和
+		return x+y;
+	},0);
+	array.reduce(function(x,y){ // 求所有元素的积
+		return x*y;
+	},1);
+	array.reduce(function(x,y){ // 求所有元素的中的最大值
+		return (x>y) ? x : y;
+	});
+
+x y 会依次被赋值为 a[0] a[1] ... a[N]，即操作是从左到右的。
+
+返回值：
+>value 组合或比较的结果
+
+###19.reduceRight()
+
+同 reduce() 相同，不过操作是从右向左的。
+
+###20.indexOf()
+
+查找指定元素首次出现的位置。
+
+语法：
+>array.indexOf(elmt);
+
+返回值：
+>index 如果数组中存在该元素，则返回其首次出现的位置；否则，返回 -1
+
+###21.lastIndexOf()
+
+与 indexOf() 相同，不过查找的顺序为从右向左。
