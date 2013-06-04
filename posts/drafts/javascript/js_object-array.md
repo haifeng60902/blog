@@ -135,3 +135,52 @@ callback 为指定的排序函数，该参数是可选的。如果省略，则�
 >Array 排序后的数组
 
 ###9.splice()
+
+该方法可用于插入、删除或替换数组元素。
+
+语法：
+>array.splice(index[,n][,elmt1,...,elmtN]);
+
+参数：
+>1.index 指定插入或删除元素的起始下表  
+>2.n（>=0） 指定删除或替换元素的个数（该参数可选，如果省略，默认为 (length-1)-index，即删除或替换到末尾）  
+>3.elmts 用于替换或插入到数组中的元素列表（该参数可选，如果省略，则该方法用于删除元素）
+
+返回值：
+>array 如果有元素被删除或替换，则将其作为数组返回
+
+###10.toString()
+
+将数组转连接成字符串，并返回结果。
+
+语法：
+>array.toString();
+
+返回值：
+>string 以","分隔的字符串
+
+返回值与 array.join() 相同。
+
+###11.toLocalString()
+
+将数组元素转换为 LocalString，然后连接成字符串，并返回结果。
+
+语法：
+>array.toLocalString();
+
+该方法会依次调用每个数组元素的 toLocalString() 方法，将其转换为 LocalString。
+
+返回值：
+>string 以","分隔的字符串
+
+###12.unshift()
+
+向数组开头添加一个或多个元素。
+
+语法：
+>array.unshift(elmt1[,elmt2,...,elmtN]);
+
+数组会自动维护 length 属性。
+
+返回值：
+>length 数组更新后的长度
