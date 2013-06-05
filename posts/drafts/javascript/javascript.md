@@ -65,6 +65,8 @@ JavaScript 语法
 变量
 ----
 
+参考：js_variable
+
 运算符
 ------
 
