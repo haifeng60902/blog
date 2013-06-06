@@ -75,6 +75,8 @@ JavaScript 语法
 控制结构
 --------
 
+参考：js_statements
+
 函数
 ----
 
