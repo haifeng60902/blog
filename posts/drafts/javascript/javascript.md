@@ -57,6 +57,8 @@ JavaScript 语法
 
 ###内置对象
 
+参考：js_objects
+
 数组
 ----
 
@@ -80,10 +82,14 @@ JavaScript 语法
 函数
 ----
 
-
+参考：js_function
 
 类
 --
 
+参考：js_class
+
 正则表达式
 ----------
+
+参考：js_regexp
