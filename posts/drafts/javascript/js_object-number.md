@@ -12,6 +12,12 @@ value 代表了数值或可转换为数值的其他值。
 属性
 ----
 
+以下属性的访问方式为：
+
+	Number.MAX_VALUE
+
+不可以在 Number 对象中访问。
+
 ###1.MAX_VALUE
 
 代表 Number 对象可表示的数值上限。
