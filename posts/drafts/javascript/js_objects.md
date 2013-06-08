@@ -14,6 +14,8 @@ Number
 String
 ------
 
+参考：js_object-string
+
 Boolean
 -------
 
