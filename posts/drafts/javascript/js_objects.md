@@ -17,11 +17,15 @@ String
 Boolean
 -------
 
+参考：js_object-boolean
+
 Date
 ----
 
 Math
 ----
+
+参考：js_object-math
 
 RegExp
 ------
