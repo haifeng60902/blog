@@ -24,6 +24,8 @@ Boolean
 Date
 ----
 
+参考：js_object-date
+
 Math
 ----
 
@@ -31,3 +33,5 @@ Math
 
 RegExp
 ------
+
+参考：js_object-regexp
