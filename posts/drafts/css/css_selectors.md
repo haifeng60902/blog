@@ -126,7 +126,7 @@ class 选择器在 `。` 后跟随 `class` 名，匹配所有 `class="class"` �
 
 	// HTML
 	<h3 title="head"></h3>
-	<p></p>
+	<p title="head p"></p>
 	<div title="head-div"></div>
 	// CSS
 	[title|="head"]{
@@ -135,9 +135,9 @@ class 选择器在 `。` 后跟随 `class` 名，匹配所有 `class="class"` �
 
 `<h3 title="head">` `<div title="head-div">` 两个元素都会被选中。
 
-###5.[attr^="value"]
+###5.[attr\^="value"]
 
-[attr^="value"] 选择器会匹配所有 `attr` 属性值以字符串 `value` 开头的元素：
+[attr\^="value"] 选择器会匹配所有 `attr` 属性值以字符串 `value` 开头的元素：
 
 	// HTML
 	<h3 title="head element"></h3>
@@ -183,25 +183,25 @@ class 选择器在 `。` 后跟随 `class` 名，匹配所有 `class="class"` �
 伪元素选择器
 -----------
 
-`e` 代表任意选择器或选择器组合所指定的 _一个元素_。如 `#target` 等。
+`e` 代表任意选择器或选择器组合所指定的 _一个元素_ 。如 `#target` 等。
 
-`es` 代表任意选择器或选择器组合所指定的 _元素集合_。如 `.target` `div p` 等。
+`es` 代表任意选择器或选择器组合所指定的 _元素集合_ 。如 `.target` `div p` 等。
 
 ###1.:first-letter 1
 
-e|es:first-letter 用于为 e|es 的首个字母添加样式：
+e|es:first-letter 用于为 e|es 的 _首个字母_ 添加样式：
 
 ###2.:first-line 1
 
-e|es:first-line 用于为 e|es 的首行添加样式：
+e|es:first-line 用于为 e|es 的 _首行_ 添加样式：
 
 ###3.:before 2
 
-e|es:before 用于在 e|es 元素的内容之前插入新的内容，并为之添加样式：
+e|es:before 用于在 e|es 元素的 _内容之前_ 插入新的内容，并为之添加样式：
 
 ###4.:after 2
 
-e|es:after 用于在 e|es 元素的内容之后插入新的内容，并为之添加样式：
+e|es:after 用于在 e|es 元素的 _内容之后_ 插入新的内容，并为之添加样式：
 
 ###5.::selection 3
 
@@ -231,7 +231,7 @@ as:visited 用于设置 _已访问过_ 的 `<a>` 元素的样式：
 
 as:active 用于设置 _活动_ 的 `<a>` 元素的样式：
 
-_活动_ 指的是在 `<a>` 元素 _按下鼠标_ 的状态。
+_活动_ 指的是在 `<a>` 元素上 _按下鼠标_ 时的状态。
 
 `:active` 伪类适用于大多数 HTML 元素。
 
@@ -243,7 +243,7 @@ as|e|es:hover 用于设置 _鼠标位于其上_ 的 `<a>`|e|es 元素的样式�
 
 ###5.:target 3
 
-e:focus 用于设置 _活动_ 的锚元素的样式：
+e:target 用于设置 _活动_ 的锚元素的样式：
 
 ###6.:lang(lan) 2
 
@@ -271,7 +271,7 @@ e|es:checked 用于设置 `checked="checked"` 的表单元素的样式：
 
 :root 用于设置根元素的样式：
 
-在 HTML 中，根元素始终是 `<html>`。
+在 HTML 中，根元素始终为 `<html>`。
 
 ###12.:first-child 2
 
@@ -330,7 +330,7 @@ a b 用于设置嵌套在 a 中所有的 b 元素的样式（祖先元素与后�
 
 ###2.a>b
 
-a b 用于设置以 a 元素为父元素的 b 元素的样式（父元素与子元素）：
+a b 用于设置以 a 元素为祖先元素的 b 元素的样式（父元素与子元素，a 可以不是 b 的父元素）：
 
 ###3.a+b
 
