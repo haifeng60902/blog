@@ -1,57 +1,59 @@
-STANDARDS ±ê×¼
+STANDARDS æ ‡å‡†
 ========
 
 W3C standards define an __Open Web Platform__ for application development that has the unprecedented potential to enable developers to build rich interactive experiences, powered by vast data stores, that are available on any device. Although the boundaries of the platform continue to evolve, industry leaders speak nearly in unison about how HTML5 will be the cornerstone for this platform. But the full strength of the platform relies on many more technologies that W3C and its partners are creating, including CSS, SVG, WOFF, the Semantic Web stack, XML, and a variety of APIs.
 
-W3C ±ê×¼¿ª·¢¶¨ÒåÁËÒ»¸ö __¿ª·Å Web Æ½Ì¨__ £¬Îª¿ª·¢ÕßÌá¹©ÁË¹¹½¨¾ßÓĞ·á¸»½»»¥ÌåÑé¡¢´óÈİÁ¿Êı¾İ´æ´¢²¢¿ÉÔËĞĞÓÚÈÎºÎÉè±¸µÄÓ¦ÓÃµÄÇ±ÄÜ¡£ËäÈ»¸ÃÆ½Ì¨µÄ·¶Î§ÈÔÔÚÀ©´ó£¬ĞĞÒµÁìµ¼ÕßÒ²Ò»Ö±ÈÏÎª HTML5 ½«³ÉÎª¸ÃÆ½Ì¨µÄ»ùÊ¯£¬µ«¸ÃÆ½Ì¨µÄÈ«²¿Á¦Á¿ÒÀÀµÓÚ W3C ¼°Æä»ï°é´´ÔìµÄ¸ü¶à¼¼Êõ£¬°üÀ¨£ºCSS¡¢SVG¡¢WOFF¡¢ÓïWeb ÓïÒå»¯¡¢XML ºÍÒ»ÏµÁĞµÄ API¡£
+W3C æ ‡å‡†å¼€å‘å®šä¹‰äº†ä¸€ä¸ª __å¼€æ”¾ Web å¹³å°__ ï¼Œä¸ºå¼€å‘è€…æä¾›äº†æ„å»ºå…·æœ‰ä¸°å¯Œäº¤äº’ä½“éªŒã€å¤§å®¹é‡æ•°æ®å­˜å‚¨å¹¶å¯è¿è¡Œäºä»»ä½•è®¾å¤‡çš„åº”ç”¨çš„æ½œèƒ½ã€‚è™½ç„¶è¯¥å¹³å°çš„èŒƒå›´ä»åœ¨æ‰©å¤§ï¼Œè¡Œä¸šé¢†å¯¼è€…ä¹Ÿä¸€ç›´è®¤ä¸º HTML5 å°†æˆä¸ºè¯¥å¹³å°çš„åŸºçŸ³ï¼Œä½†è¯¥å¹³å°çš„å…¨éƒ¨åŠ›é‡ä¾èµ–äº W3C åŠå…¶ä¼™ä¼´åˆ›é€ çš„æ›´å¤šæŠ€æœ¯ï¼ŒåŒ…æ‹¬ï¼šCSSã€SVGã€WOFFã€è¯­Web è¯­ä¹‰åŒ–ã€XML å’Œä¸€ç³»åˆ—çš„ APIã€‚
 
 W3C develops these technical specifications and guidelines through a process designed to maximize consensus about the content of a technical report, to ensure high technical and editorial quality, and to earn endorsement by W3C and the broader community.
 
-W3C ±¾×ÅÈ·±£ÄÚÈİ¸ß¶ÈÒ»ÖÂµÄÔ­ÔòÀ´¿ª·¢ÕâĞ©¼¼Êõ¹æ·¶ºÍÖ¸µ¼£¬À´±£Ö¤Æä¼¼ÊõºÍ±à¼­ÖÊÁ¿£¬²¢»ñµÃ W3C ºÍ¸ü¹ã·ºµÄÉçÇøÈÏ¿É¡£
+W3C æœ¬ç€ç¡®ä¿å†…å®¹é«˜åº¦ä¸€è‡´çš„åŸåˆ™æ¥å¼€å‘è¿™äº›æŠ€æœ¯è§„èŒƒå’ŒæŒ‡å¯¼ï¼Œæ¥ä¿è¯å…¶æŠ€æœ¯å’Œç¼–è¾‘è´¨é‡ï¼Œå¹¶è·å¾— W3C å’Œæ›´å¹¿æ³›çš„ç¤¾åŒºè®¤å¯ã€‚
 
-Web Design and Applications Web Éè¼Æ¼°Ó¦ÓÃ
+Web Design and Applications Web è®¾è®¡åŠåº”ç”¨
 ---------------------------
 
-Web Design and Applications involve the standards for building and Rendering Web pages, including HTML, CSS, SVG, Ajax, and other technologies for Web Applications (¡°WebApps¡±). This section also includes information on how to make pages accessible to people with disabilities (WCAG), to internationalize them, and make them work on mobile devices.
+Web Design and Applications involve the standards for building and Rendering Web pages, including HTML, CSS, SVG, Ajax, and other technologies for Web Applications (â€œWebAppsâ€). This section also includes information on how to make pages accessible to people with disabilities (WCAG), to internationalize them, and make them work on mobile devices.
 
-Web Éè¼Æ¼°Ó¦ÓÃ°üº¬ÁËÍøÒ³¹¹½¨ºÍäÖÈ¾Ïà¹ØµÄ±ê×¼£¬°üÀ¨£ºHTML¡¢CSS¡¢SVG¡¢Ajax ¼°ÆäËû Web Ó¦ÓÃ£¨WebApps£©Ïà¹ØµÄ¼¼Êõ¡£±¾½ÚÒ²°üº¬ÁËÍøÒ³¿É·ÃÎÊĞÔ¡¢¹ú¼Ê»¯¼°ÒÆ¶¯Éè±¸Ö§³ÖµÈÄÚÈİ¡£
+Web è®¾è®¡åŠåº”ç”¨åŒ…å«äº†ç½‘é¡µæ„å»ºå’Œæ¸²æŸ“ç›¸å…³çš„æ ‡å‡†ï¼ŒåŒ…æ‹¬ï¼šHTMLã€CSSã€SVGã€Ajax åŠå…¶ä»– Web åº”ç”¨ï¼ˆWebAppsï¼‰ç›¸å…³çš„æŠ€æœ¯ã€‚æœ¬èŠ‚ä¹ŸåŒ…å«äº†ç½‘é¡µå¯è®¿é—®æ€§ã€å›½é™…åŒ–åŠç§»åŠ¨è®¾å¤‡æ”¯æŒç­‰å†…å®¹ã€‚
 
-Web Architecture Web ¼Ü¹¹
+Web Architecture Web æ¶æ„
 ----------------
 
 Web Architecture focuses on the foundation technologies and principles which sustain the Web, including URIs and HTTP.
 
-Web ¼Ü¹¹ÒÔÖ§³Å Web µÄ»ù´¡¼¼ÊõºÍÔ­ÀíÎªºËĞÄ£¬°üÀ¨£ºURI ºÍ HTTP¡£
+Web æ¶æ„ä»¥æ”¯æ’‘ Web çš„åŸºç¡€æŠ€æœ¯å’ŒåŸç†ä¸ºæ ¸å¿ƒï¼ŒåŒ…æ‹¬ï¼šURI å’Œ HTTPã€‚
 
-Semantic Web Web ÓïÒå»¯
+Semantic Web Web è¯­ä¹‰åŒ–
 ------------
 
-In addition to the classic ¡°Web of documents¡± W3C is helping to build a technology stack to support a ¡°Web of data,¡± the sort of data you find in databases. The ultimate goal of the Web of data is to enable computers to do more useful work and to develop systems that can support trusted interactions over the network. The term ¡°Semantic Web¡± refers to W3C¡¯s vision of the Web of linked data. Semantic Web technologies enable people to create data stores on the Web, build vocabularies, and write rules for handling data. Linked data are empowered by technologies such as RDF, SPARQL, OWL, and SKOS.
+In addition to the classic â€œWeb of documentsâ€ W3C is helping to build a technology stack to support a â€œWeb of data,â€ the sort of data you find in databases. The ultimate goal of the Web of data is to enable computers to do more useful work and to develop systems that can support trusted interactions over the network. The term â€œSemantic Webâ€ refers to W3Câ€™s vision of the Web of linked data. Semantic Web technologies enable people to create data stores on the Web, build vocabularies, and write rules for handling data. Linked data are empowered by technologies such as RDF, SPARQL, OWL, and SKOS.
 
-W3C ÕıÔÚ½¨Á¢Ò»¸ö²»Í¬ÓÚ´«Í³µÄ ¡°»ùÓÚÎÄµµµÄ Web¡± µÄ ¡°»ùÓÚÊı¾İµÄ Web¡± µÄ¼¼Êõ¼Ü¹¹£¬ËüÀàËÆÓÚ´ÓÊı¾İ¿âÖĞ¶ÁÈ¡µ½µÄÊı¾İ¡£¸Ã¿ò¼ÜµÄ×îÖÕÄ¿±êÊÇÊ¹¼ÆËã»úÄÜ¹»¸üÓĞĞ§µØ¹¤×÷£¬²¢¿ª·¢³öÖ§³Ö¿ÉĞÅÈÎÍøÂç½»»¥µÄÏµÍ³¡£Web ÓïÒå»¯¼¼ÊõÎª¿ª·¢ÕßÌá¹©ÁË´´½¨´æ´¢ÔÚ Web ÉÏµÄÊı¾İ£¬½¨Á¢´Ê»ã±í¼°±àĞ´´¦ÀíÊı¾İ¹æÔòµÄÄÜÁ¦¡£ÓëÊı¾İÏà¹ØµÄ¼¼Êõ°üÀ¨£ºRDF¡¢SPARQL¡¢OWL ºÍ SKOS¡£
+W3C æ­£åœ¨å»ºç«‹ä¸€ä¸ªä¸åŒäºä¼ ç»Ÿçš„ â€œåŸºäºæ–‡æ¡£çš„ Webâ€ çš„ â€œåŸºäºæ•°æ®çš„ Webâ€ çš„æŠ€æœ¯æ¶æ„ï¼Œå®ƒç±»ä¼¼äºä»æ•°æ®åº“ä¸­è¯»å–åˆ°çš„æ•°æ®ã€‚è¯¥æ¡†æ¶çš„æœ€ç»ˆç›®æ ‡æ˜¯ä½¿è®¡ç®—æœºèƒ½å¤Ÿæ›´æœ‰æ•ˆåœ°å·¥ä½œï¼Œå¹¶å¼€å‘å‡ºæ”¯æŒå¯ä¿¡ä»»ç½‘ç»œäº¤äº’çš„ç³»ç»Ÿã€‚Web è¯­ä¹‰åŒ–æŠ€æœ¯ä¸ºå¼€å‘è€…æä¾›äº†åˆ›å»ºå­˜å‚¨åœ¨ Web ä¸Šçš„æ•°æ®ï¼Œå»ºç«‹è¯æ±‡è¡¨åŠç¼–å†™å¤„ç†æ•°æ®è§„åˆ™çš„èƒ½åŠ›ã€‚ä¸æ•°æ®ç›¸å…³çš„æŠ€æœ¯åŒ…æ‹¬ï¼šRDFã€SPARQLã€OWL å’Œ SKOSã€‚
 
-XML Technology XML ¼¼Êõ
+XML Technology XML æŠ€æœ¯
 --------------
 
 XML Technologies including XML, XML Namespaces, XML Schema, XSLT, Efficient XML Interchange (EXI), and other related standards.
 
-XML ¼¼Êõ°üÀ¨£ºXML¡¢XML ÃüÃû¿Õ¼ä¡¢XML Óï·¨¡¢XSLT¡¢¸ßĞ§ XML ½»»»£¨EXI£©ÒÔ¼°ÆäËûÏà¹Ø±ê×¼¡£
+XML æŠ€æœ¯åŒ…æ‹¬ï¼šXMLã€XML å‘½åç©ºé—´ã€XML è¯­æ³•ã€XSLTã€é«˜æ•ˆ XML äº¤æ¢ï¼ˆEXIï¼‰ä»¥åŠå…¶ä»–ç›¸å…³æ ‡å‡†ã€‚
 
-Web of Services Web ·şÎñ
+Web of Services Web æœåŠ¡
 ---------------
 
 Web of Services refers to message-based design frequently found on the Web and in enterprise software. The Web of Services is based on technologies such as HTTP, XML, SOAP, WSDL, SPARQL, and others.
 
-Web ·şÎñÊÇ»ùÓÚÏûÏ¢µÄÉè¼Æ£¬²¢³£¼ûÓÚ Web ºÍÆóÒµÈí¼şÖĞ¡£Ïà¹ØµÄ¼¼Êõ°üÀ¨£ºHTTP¡¢XML¡¢SOAP¡¢WSDL¡¢SPARQL µÈ¡£
+Web æœåŠ¡æ˜¯åŸºäºæ¶ˆæ¯çš„è®¾è®¡ï¼Œå¹¶å¸¸è§äº Web å’Œä¼ä¸šè½¯ä»¶ä¸­ã€‚ç›¸å…³çš„æŠ€æœ¯åŒ…æ‹¬ï¼šHTTPã€XMLã€SOAPã€WSDLã€SPARQL ç­‰ã€‚
 
-Web of Devices Éè±¸Ö§³Ö
+Web of Devices è®¾å¤‡æ”¯æŒ
 --------------
 
 W3C is focusing on technologies to enable Web access anywhere, anytime, using any device. This includes Web access from mobile phones and other mobile devices as well as use of Web technology in consumer electronics, printers, interactive television, and even automobiles.
 
-W3C ÖÂÁ¦ÓÚÊ¹ Web ÔÚÈÎºÎµØµã¡¢Ê±¼ä¼°Éè±¸ÉÏ·ÃÎÊµÄ¼¼Êõ¡£Ö§³Ö°üÀ¨ÊÖ»úµÈÒÆ¶¯Éè±¸£¬ÒÔ¼°Ê¹ÓÃ Web ¼¼ÊõµÄµç×Ó²úÆ·¡¢´òÓ¡»ú¡¢»¥¶¯µçÊÓ£¬ÉõÖÁÊÇÆû³µ¡£
+W3C è‡´åŠ›äºä½¿ Web åœ¨ä»»ä½•åœ°ç‚¹ã€æ—¶é—´åŠè®¾å¤‡ä¸Šè®¿é—®çš„æŠ€æœ¯ã€‚æ”¯æŒåŒ…æ‹¬æ‰‹æœºç­‰ç§»åŠ¨è®¾å¤‡ï¼Œä»¥åŠä½¿ç”¨ Web æŠ€æœ¯çš„ç”µå­äº§å“ã€æ‰“å°æœºã€äº’åŠ¨ç”µè§†ï¼Œç”šè‡³æ˜¯æ±½è½¦ã€‚
 
-Browsers and Authoring Tools ä¯ÀÀÆ÷¼°¿ª·¢¹¤¾ß
+Browsers and Authoring Tools æµè§ˆå™¨åŠå¼€å‘å·¥å…·
 ----------------------------
 
-The web's usefulness and growth depends on its universality. We should be able to publish regardless of the software we use, the computer we have, the language we speak, whether we are wired or wireless, regardless of our sensory or interaction modes. We should be able to access the web from any kind of hardware that can connect to the Internet ¨C stationary or mobile, small or large. W3C facilitates this listening and blending via international web standards. These standards ensure that all the crazy brilliance continues to improve a web that is open to us all.
+The web's usefulness and growth depends on its universality. We should be able to publish regardless of the software we use, the computer we have, the language we speak, whether we are wired or wireless, regardless of our sensory or interaction modes. We should be able to access the web from any kind of hardware that can connect to the Internet â€“ stationary or mobile, small or large. W3C facilitates this listening and blending via international web standards. These standards ensure that all the crazy brilliance continues to improve a web that is open to us all.
+
+ç½‘ç«™çš„å®ç”¨æ€§å’Œå‘å±•ä¾èµ–äºå…¶æ™®éæ€§ã€‚æˆ‘ä»¬åº”è¯¥èƒ½å¤Ÿå‘å¸ƒä¸ä¾èµ–äºè½¯ä»¶ã€ç¡¬ä»¶ã€è¯­è¨€ã€ç½‘ç»œç±»å‹åŠæ„Ÿè§‰æˆ–äº¤äº’æ–¹å¼çš„ç½‘ç«™ï¼Œè€Œä¸”åº”è¯¥èƒ½å¤Ÿä»ä»»ä½•è®¾å¤‡ï¼ˆç§»åŠ¨æˆ–å›ºå®šï¼Œä¸è®ºå¤§å°ï¼‰è®¿é—®å®ƒã€‚W3C è‡´åŠ›äºé€šè¿‡å›½é™…åŒ–çš„ Web æ ‡å‡†æ¥ä¿éšœå’Œä¿ƒè¿›æ‰€æœ‰å……æ»¡åˆ›æ„çš„ç½‘ç«™ä¸æ–­è¿›æ­¥ã€‚
