@@ -21,7 +21,7 @@ Web Architecture Web 架构
 
 Web Architecture focuses on the foundation technologies and principles which sustain the Web, including URIs and HTTP.
 
-Web 架构以支撑 Web 的基础技术和原理为核心，包括：URI 和 HTTP。
+Web 架构以支撑 Web 的基础技术和原理为核心，包括：URIs 和 HTTP。
 
 Semantic Web Web 语义化
 ------------

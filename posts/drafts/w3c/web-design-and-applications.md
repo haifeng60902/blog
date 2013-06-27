@@ -38,24 +38,32 @@ Accessibility 可访问性
 
 W3C’s Web Accessibility Initiative (WAI) has published Web Content Accessibility Guidelines (WCAG) to help authors create content that is accessible to people with disabilities. WAI-ARIA gives authors more tools to create accessible Web Applications by providing additional semantics about widgets and behaviors.
 
+W3C 的网页可访问性倡议（WAI）已经发布了Web 内容可访问性指导（WCAG），可以帮助作者创建可被残疾人访问的网站。应用作者可以借助 WAI-WCAG 提供的工具，通过为组件和动作添加额外语义，来提高 Web 应用的可访问性。
 
-
-Internationalization
+Internationalization 国际化
 --------------------
 
 W3C has a mission to design technology that works across cultures and languages. W3C standards such as HTML and XML are built on Unicode, for instance. In addition, W3C has published guidance for authors related to language tags bi-directional (bidi) text, and more.
 
-Mobile Web
+设计跨越文化和语言的技术，是 W3C 的任务之一。W3C 的一些标准，如：HTML、XML 等，都是基于 Unicode 编码的。另外，W3C 也向作者发布了一些关于语言标记方向（bidi）文本等的指导。
+
+Mobile Web 移动设备支持
 ----------
 
 W3C promotes “One Web” that is available on any device. W3C’s Mobile Web Best Practices help authors understand how to create content that provides a reasonable experience on a wide variety of devices, contexts, and locations.
 
-Privacy
+W3C 一直在促进所有设备可访问“同一个 Web”。移动设备 Web 最佳实践可以帮助作者了解如何在不同地点、环境和设备中创建具有合理体验的内容。
+
+Privacy 隐私
 -------
 
 The Web is a powerful tool for communications and transactions of all sorts. It is important to consider privacy and security implications of the Web as part of technology design. Learn more about tracking and Web App security.
 
-Math on the Web
+网络是一个交流和处理事务的有力工具，隐私和安全应该作为 Web 技术中的重要组成部分。在此了解更多关于跟踪和 Web 应用安全的知识。
+
+Math on the Web Web 中的数学
 ---------------
 
 Mathematics and formula are used on the Web for business reports, education materials and scientific research. W3C’s MathML enables mathematics to be served, received, and processed on the World Wide Web, just as HTML has enabled this functionality for other types of content.
+
+数学及公式通常在 Web 中用于显示商业报告、教育资料或科学研究。W3C 的 MathML 使数学内容可以保存、接收或在互联网中传播，就像在 HTML 中使用的其他功能一样。
