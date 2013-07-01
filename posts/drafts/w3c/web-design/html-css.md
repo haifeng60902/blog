@@ -65,7 +65,7 @@ The following very simple example of a portion of an HTML document illustrates h
 		<a href="http://www.example.com/report">final report</a>.
 	</p>
 
-The `class` attribute on the paragraph's start tag (“<p>”) can be used, among other thing, to add style. For instance, to italicize the text of all paragraphs with a class of “moreinfo,” one could write, in CSS:
+The `class` attribute on the paragraph's start tag (`<p>`) can be used, among other thing, to add style. For instance, to italicize the text of all paragraphs with a class of “moreinfo,” one could write, in CSS:
 
 可以在段落的开始标签（`<p>`）中使用 `class` 属性，来为其添加样式。例如，使所有 `class` 属性包含 `moreinfo` 的段落用斜体显示，可以在 CSS 中书写：
 
