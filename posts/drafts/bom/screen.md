@@ -6,54 +6,54 @@ Screen 对象
 属性
 ---
 
-availHeight
+###availHeight
 
 返回屏幕窗口显示区域的高度（不高扩任务栏）。
 
-availWidth
+###availWidth
 
 返回屏幕窗口显示区域的宽度（不高扩任务栏）。
 
-bufferDepth
+###bufferDepth
 
 设置或返回调色板比特值。
 
-colorDepth
+###colorDepth
 
 设置或返回设备或缓冲器的调色板比特值。
 
-deviceXDPI
+###deviceXDPI
 
 返回屏幕水平 DPI（每英寸点数）。
 
-deviceYDPI
+###deviceYDPI
 
 返回屏幕垂直 DPI（每英寸点数）。
 
-fontSmoothingEnabled
+###fontSmoothingEnabled
 
 返回是否启用了字体平滑。
 
-height
+###height
 
 返回屏幕高度。
 
-localXDPI
+###localXDPI
 
 返回屏幕水平 DPI（每英寸点数）。
 
-localYDPI
+###localYDPI
 
 返回屏幕垂直 DPI（每英寸点数）。
 
-pixelDepth
+###pixelDepth
 
 返回屏幕的颜色分辨率。
 
-updateInterval
+###updateInterval
 
 设置或返回屏幕的刷新频率。
 
-width
+###width
 
 返回屏幕宽度。

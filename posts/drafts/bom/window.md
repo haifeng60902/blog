@@ -8,11 +8,11 @@ Window 对象
 属性
 ---
 
-frames
+###frames
 
 以数组形式返回页面中的所有框架。
 
-closed
+###closed
 
 窗口是否被关闭。
 
@@ -20,96 +20,96 @@ closed
 >1.true 已关闭  
 >2.false 未关闭
 
-defalutStatus
+###defalutStatus
 
 读取或设置状态栏文本。
 
-document
+###document
 
 返回 Document 对象的只读引用。
 
-history
+###history
 
 返回 History 对象的只读引用。
 
-innerHeight
+###innerHeight
 
 返回窗口文档显示区的高度，单位为像素。
 
-innerWidth
+###innerWidth
 
 返回窗口文档显示区的宽度，单位为像素。
 
 注：innerHeight 和 innerWidth 不包含菜单栏、工具栏及滚动条的尺寸。
 
-length
+###length
 
 窗口中的框架数量。
 
-location
+###location
 
 返回 Location 对象的引用。
 
-name
+###name
 
 设置或返回窗口标题。
 
-navigator
+###navigator
 
 返回 Navigator 对象的只读引用。
 
-opener
+###opener
 
 返回创建当前窗口的父窗口的引用。
 
-outerHeight
+###outerHeight
 
 返回窗口的外边缘高度。
 
-outerWidth
+###outerWidth
 
 返回窗口的外边缘宽度。
 
-pageXOffset
+###pageXOffset
 
 设置或返回当前页面左侧距离文档显示区左侧的距离。
 
-pageYOffset
+###pageYOffset
 
 设置或返回当前页面顶部距文档显示区顶部的距离。
 
-parent
+###parent
 
 返回父窗口的引用。
 
-screen
+###screen
 
 返回 Screen 对象的只读引用。
 
-self
+###self
 
 返回当前窗口的引用，相当于 window。
 
-status
+###status
 
 设置或读取状态栏的文本信息。
 
-top
+###top
 
 返回最顶层父窗口的引用。
 
-screenLeft/screenX
+###screenLeft/screenX
 
 返回窗口左边缘距显示器左边缘的距离。
 
-screenTop/screenY
+###screenTop/screenY
 
 返回窗口上边缘距显示器上边缘的距离。
 
 方法
 ===
 
-alert()
+###alert()
 
 弹出警告对话框。
 
@@ -121,14 +121,14 @@ alert()
 
 弹出的警告对话框中会显示警告信息，窗口底部有一个[确定]按钮。
 
-blur()
+###blur()
 
 取消当前窗口的焦点。
 
 语法：
 >window.blur();
 
-clearInterval()
+###clearInterval()
 
 取消定时器。
 
@@ -138,7 +138,7 @@ clearInterval()
 参数：
 >1.interval_id setInterval() 方法返回的定时器 ID
 
-clearTimeout()
+###clearTimeout()
 
 取消计时器。
 
@@ -148,14 +148,14 @@ clearTimeout()
 参数：
 >1.timeout_id setTimeout() 方法返回的计时器 ID
 
-close()
+###close()
 
 关闭当前窗口。
 
 语法：
 >window.close();
 
-confirm()
+###confirm()
 
 弹出确认对话框。
 
@@ -171,14 +171,14 @@ confirm()
 >1.true 用户点击了[确定]按钮  
 >2.false 用户点击了[取消]按钮
 
-focus()
+###focus()
 
 使当前窗口获取焦点。
 
 语法：
 >window.focus();
 
-moveBy()
+###moveBy()
 
 根据指定的偏移量移动窗口。
 
@@ -189,7 +189,7 @@ moveBy()
 >1.x 横向移动距离（向右为正）  
 >2.y 纵向移动距离（向下为正）
 
-moveTo()
+###moveTo()
 
 将窗口移动到指定位置。
 
@@ -200,7 +200,7 @@ moveTo()
 >1.x 目标点横坐标  
 >2.y 目标点纵坐标
 
-open()
+###open()
 
 打开新的窗口，或修改已存在的窗口。
 
@@ -213,7 +213,7 @@ open()
 >3.features 新窗口特征列表（参考下面的列表，多个值之间使用 `,` 分隔）  
 >4.replace 是否替换窗口的历史记录条目（true：替换历史记录；false：新建历史记录）
 
-窗口特征列表
+####窗口特征列表
 
 channelmode ??
 >yes/1 启用  
@@ -267,7 +267,7 @@ toolbar ??
 >yes/1 启用  
 >no/0 关闭
 
-实际表现（Chrome 27）：
+####实际表现（Chrome 27）：
 
 新建标签：
 >window.open();  
@@ -283,14 +283,14 @@ toolbar ??
 
 其他属性无效。
 
-print()
+###print()
 
 打印当前页面（等同于执行浏览器的打印功能）。
 
 语法：
 >window.print();
 
-prompt()
+###prompt()
 
 显示输入对话框。
 
@@ -307,7 +307,7 @@ prompt()
 >1.文本框中的文本 用户点击了[确定]按钮  
 >2.null 用户点击了[取消]按钮
 
-resizeBy()
+###resizeBy()
 
 根据指定的像素调节窗口大小。
 
@@ -320,7 +320,7 @@ resizeBy()
 
 x、y 为像素数。当其值 >0 时，窗口增大；< 0 时，窗口缩小。
 
-resizeTo()
+###resizeTo()
 
 调节窗口大小到指定的尺寸。
 
@@ -331,7 +331,7 @@ resizeTo()
 >1.x 窗口宽度  
 >2.y 窗口高度
 
-scrollBy()
+###scrollBy()
 
 滚动当前页面。
 
@@ -342,7 +342,7 @@ scrollBy()
 >1.x 横向滚动距离（向右为正）  
 >2.y 纵向滚动距离（向下为正）
 
-scrollTo()
+###scrollTo()
 
 滚动当前页面到指定位置。
 
@@ -353,7 +353,7 @@ scrollTo()
 >1.x 目标位置横坐标  
 >2.y 目标位置纵坐标 
 
-setInterval()
+###setInterval()
 
 定义定时器。
 
@@ -369,7 +369,7 @@ func 函数会在设定的时间间隔后被 __重复执行__ ，直到使用 cl
 返回值：
 >interval_id 定时器的 ID
 
-setTimeout()
+###setTimeout()
 
 定义计时器。
 
