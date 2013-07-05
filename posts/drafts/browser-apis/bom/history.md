@@ -6,28 +6,28 @@ History 对象
 属性
 ---
 
-length
+###length
 
 历史列表的长度（浏览过的页面数量）。
 
 方法
 ---
 
-back()
+###back()
 
 加载历史列表中的前一个页面（后退一步）。
 
 语法：
 >history.back();
 
-forward()
+###forward()
 
 加载历史列表中的下一个页面（前进一步）。
 
 语法：
 >history.forward();
 
-go()
+###go()
 
 加载历史列表中指定的页面。
 

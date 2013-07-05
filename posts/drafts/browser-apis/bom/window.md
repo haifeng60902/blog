@@ -8,6 +8,10 @@ Window 对象
 属性
 ---
 
+###applicationCache
+
+返回 ApplicationCache 对象的引用。
+
 ###frames
 
 以数组形式返回页面中的所有框架。
@@ -20,6 +24,10 @@ Window 对象
 >1.true 已关闭  
 >2.false 未关闭
 
+###console
+
+返回 Console 对象的引用。
+
 ###defalutStatus
 
 读取或设置状态栏文本。
@@ -28,9 +36,21 @@ Window 对象
 
 返回 Document 对象的只读引用。
 
+###frameElement
+
+获取当前框架窗口的 frame 引用。
+
+###hidden
+
+获取窗口是否隐藏。
+
 ###history
 
 返回 History 对象的只读引用。
+
+###indexedDB
+
+获取 IDBFactory 对象的引用。
 
 ###innerHeight
 
@@ -44,11 +64,19 @@ Window 对象
 
 ###length
 
-窗口中的框架数量。
+获取窗口中的框架数量。
 
 ###location
 
 返回 Location 对象的引用。
+
+###localStorage
+
+获取 LocalStorage 对象的引用。
+
+###maxConnectionsPerServer
+
+获取浏览器与每个服务器之间的最大连接数。
 
 ###name
 
@@ -57,6 +85,10 @@ Window 对象
 ###navigator
 
 返回 Navigator 对象的只读引用。
+
+###offscreenBuffering
+
+设置或获取是否屏幕外渲染。
 
 ###opener
 
@@ -106,8 +138,52 @@ Window 对象
 
 返回窗口上边缘距显示器上边缘的距离。
 
+###XMLHttpRequest
+
+获取 XMLHttpRequest 对象的引用。
+
 方法
 ===
+
+###addEventListener()
+
+为对象绑定事件监听函数。
+
+语法：
+>elmt.addEventListener("event",func,useCapture);
+
+参数：
+>1.event 事件名称  
+>2.func 事件处理程序  
+>3.useCapture bool ??
+
+事件处理程序可调用的参数：
+>1.event Event 事件对象  
+>2.this 事件源对象
+
+####attachEvent() IE<=8
+
+语法：
+>elmt.attachEvent("event",func);
+
+###removeEventListener()
+
+取消事件监听。
+
+语法：
+>elmt.removeEventListener("event",func,useCapture);
+
+####detachEvent() IE<=8
+
+语法：
+>elmt.detachEvent("event",func);
+
+###dispatchEvent()
+
+触发当前对象的指定事件。
+
+语法：
+>obj.dispatchEvent("event");
 
 ###alert()
 
@@ -177,6 +253,42 @@ Window 对象
 
 语法：
 >window.focus();
+
+###getComputedStyle()
+
+获取对象或伪对象的 CSSStyleDeclaration 属性。
+
+语法：
+>window.getComputedStyle(elmt,pseudoName);
+
+参数：
+>1.elmt 目标对象  
+>2.pseudoName 伪元素（可选）
+
+返回值：
+>1.CSSStyleDeclaration 对象
+
+###getSelection()
+
+获取当前的 HTMLSelection 对象。
+
+###item()
+
+取得对象中指定的子对象。
+
+语法：
+>obj.item(name,index);
+
+参数：
+>1.name name/id 属性值或索引值（从 0 开始）  
+>2.index 索引值
+
+###matchMedia()
+
+获取 MediaQueryList 对象。
+
+语法：
+>obj.matchMedia();
 
 ###moveBy()
 
@@ -342,7 +454,7 @@ x、y 为像素数。当其值 >0 时，窗口增大；< 0 时，窗口缩小。
 >1.x 横向滚动距离（向右为正）  
 >2.y 纵向滚动距离（向下为正）
 
-###scrollTo()
+###scrollTo()/scroll()
 
 滚动当前页面到指定位置。
 
