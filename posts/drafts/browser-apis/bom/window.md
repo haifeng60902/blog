@@ -145,46 +145,6 @@ Window 对象
 方法
 ===
 
-###addEventListener()
-
-为对象绑定事件监听函数。
-
-语法：
->elmt.addEventListener("event",func,useCapture);
-
-参数：
->1.event 事件名称  
->2.func 事件处理程序  
->3.useCapture bool ??
-
-事件处理程序可调用的参数：
->1.event Event 事件对象  
->2.this 事件源对象
-
-####attachEvent() IE<=8
-
-语法：
->elmt.attachEvent("event",func);
-
-###removeEventListener()
-
-取消事件监听。
-
-语法：
->elmt.removeEventListener("event",func,useCapture);
-
-####detachEvent() IE<=8
-
-语法：
->elmt.detachEvent("event",func);
-
-###dispatchEvent()
-
-触发当前对象的指定事件。
-
-语法：
->obj.dispatchEvent("event");
-
 ###alert()
 
 弹出警告对话框。
