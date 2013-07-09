@@ -58,9 +58,22 @@ document 对象提供了从文档中查找元素/集合的方法：
 
 ###读取/设置 HTML 属性
 
-
++ node.attributes
++ elmt.classList
++ elmt.name
++ elmt.className
++ elmt.getAttribute("attr")
++ elmt.setAttribute("attr","value")
++ node.hasAttribute("attr")
++ node.hasAttributes()
++ elmt.removeAttribute("attr")
++ elmt.setAttribute("attr","value")
++ elmt.setAttributeNode("attr","value")
 
 ###读取/修改 HTML 内容
+
++ innerHTML
++ nodeValue
 
 访问节点树
 ---------
