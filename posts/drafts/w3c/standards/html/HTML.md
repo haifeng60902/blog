@@ -190,7 +190,7 @@ This document adds an additional public identifier that should be recognised by 
 
 The picture element is an image container whose source content is determined by one or more CSS media queries.
 
-####Use Cases and Requirements for Standardizing Responsive Images[2013-02-26] 标准化响应式图像用例和需求
+####Use Cases and Requirements for Standardizing Responsive Images[2013-02-26] 标准化响应式图像用例和标准
 
 This document captures the use cases and requirements for standardizing a solution for responsive images.
 
@@ -218,7 +218,7 @@ This document maps HTML elements and attributes to accessibility API roles, stat
 
 This document looks at a number of use cases involving ruby, and examines the pros and cons of a number of alternative approaches for meeting those use cases using the current HTML5 model, the XHTML Ruby Annotation model, and two other models. The aim is to clarify which use cases are supported by the existing markup models (HTML5 or XHTML), and where they are not, provide suggestions about how the markup model could be adapted to support those use cases. Implementers and standards developers can then take this background information and the suggestions in this document to specify and implement a comprehensive markup model for ruby in HTML5.
 
-####Media Accessibility User Requirements[2012-01-03] 媒体可访问性用户需求
+####Media Accessibility User Requirements[2012-01-03] 媒体可访问性用户标准
 
 Aggregates requirements of a user with disabilities with respect to audio and video on the Web, providing background on user needs, alternative content technologies, and their application on the Web.
 
@@ -247,4 +247,4 @@ An XHTML+MathML+SVG profile is a profile that combines XHTML 1.1 [XHTML11], Math
 
 The HTML Working Group is chartered with the development of an extensible, sub-settable version of HTML that is compatible with XML. It is also chartered with the development of some extensions to HTML - notably in the area of forms. This group's current activities commenced in August 1998, and the group was rechartered in June 2000. The purpose of this document is to describe the activities of the HTML Working Group, define general milestones for each sub-project, and outline the inter-dependencies among the various deliverables.
 
-####XHTML™ Document Profile Requirements[1999-09-06] XHTML 文档资料需求
+####XHTML™ Document Profile Requirements[1999-09-06] XHTML 文档简介标准
