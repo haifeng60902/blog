@@ -58,22 +58,21 @@ document 对象提供了从文档中查找元素/集合的方法：
 
 ###读取/设置 HTML 属性
 
-+ node.attributes
-+ elmt.classList
-+ elmt.name
-+ elmt.className
-+ elmt.getAttribute("attr")
++ node.attributes nodeList 属性列表 node.attributes[0].nodeName（属性名）/.nodeValue（属性值）
++ elmt.classList 数组 ["class0","class1",...]
++ elmt.name str name 属性值
++ elmt.className str class 属性值
++ elmt.getAttribute("attr")  str attr 属性值
 + elmt.setAttribute("attr","value")
-+ node.hasAttribute("attr")
-+ node.hasAttributes()
++ node.hasAttribute("attr") true/false
++ node.hasAttributes()  true/false
 + elmt.removeAttribute("attr")
-+ elmt.setAttribute("attr","value")
 + elmt.setAttributeNode("attr","value")
 
 ###读取/修改 HTML 内容
 
 + innerHTML
-+ nodeValue
++ nodeValue textNode
 
 访问节点树
 ---------
@@ -82,17 +81,24 @@ document 对象提供了从文档中查找元素/集合的方法：
 
 节点/集合的访问方式只能访问到元素节点，如果需要访问属性节点和文本节点，还需要借助节点之间的关系：
 
-+ node.childNodes
-+ node.firstChild
-+ node.lastChild
-+ node.nextSibling
-+ node.parentNode
-+ node.previousSibling
-+ node.textContent
++ node.childNodes 子节点列表
++ node.firstChild 首个子节点
++ node.lastChild 最后一个子节点
++ node.nextSibling 下一个兄弟节点
++ node.previousSibling  上一个兄弟节点
++ node.parentNode 父节点
++ node.textContent 所有文本，包含特殊字符（换行等）
++ node.hasChildNodes() true/false
 
 参考：node.md
 
-###添加/删除节点
+###添加/复制/删除节点
+
++ node.appendChild(child)
++ node.cloneNode(child)
++ node.insertBefore(newNode,target)
++ node.removeChild(child)/removeNode(child)
++ node.replaceChild(child)/replaceNode(child)
 
 访问节点样式
 ----------

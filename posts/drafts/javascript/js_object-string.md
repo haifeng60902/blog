@@ -131,7 +131,7 @@ String 对象
 将字符串分割为字符串数组。
 
 语法：
->str.slice(separator,n);
+>str.split(separator,n);
 
 参数：
 >separator 分割分隔符，可以是字符串或正则表达式  
