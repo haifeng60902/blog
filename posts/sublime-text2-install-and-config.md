@@ -92,7 +92,7 @@ Windows 版本可以下载安装包安装，或者下载便携版，解压缩即
 
 ####安装插件
 
-我们试着用 Package Control 安装 Emmet（原 Zen Coding，HTML/CSS 编写辅助工具）插件：
+我们试着用 Package Control 安装 [Emmet](http://emmet.io/)（原 Zen Coding，HTML/CSS 编写辅助工具）插件：
 
 1. 使用快捷键 `Ctrl+Shift+P` 启动 Package Control；
 2. 在命令窗口输入 `install package`，点击回车；
