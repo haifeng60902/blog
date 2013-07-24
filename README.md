@@ -6,8 +6,9 @@ My blog and notes
 Posts
 -----
 
-+ 2012-05-14 [设计中的常识](/posts/common-sense-in-design.md "设计中的常识")
-+ 2012-05-11 [虾米音乐](/posts/xiami-music.md "虾米音乐")
++ 2013-07-24 [Sublime Text2 安装配置](/posts/sublime-text2-install-and-config.md "Sublime Text2 安装配置")
++ 2013-05-14 [设计中的常识](/posts/common-sense-in-design.md "设计中的常识")
++ 2013-05-11 [虾米音乐](/posts/xiami-music.md "虾米音乐")
 + 2013-04-28 [HTML & JavaScript 中的位置和尺寸](/post/position-and-size.md "HTML & JavaScript 中的位置和尺寸")
 + 2013-04-16 [我所使用的一些工具及软件](/posts/tools-and-softwares-on-my-computer.md "我所使用的一些工具及软件[持续更新中]") update @2013-06-02 21:20:39
 + 2013-04-11 [HTML标签语义化](/posts/drafts/html_semantic.md "HTML标签语义化[草稿]")
