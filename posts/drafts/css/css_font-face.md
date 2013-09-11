@@ -1,6 +1,13 @@
 自定义字体(@font-face)
 ====================
 
+格式支持（[caniuse.com](caniuse.com/http://caniuse.com/#feat=fontface "font-face")）：
+
++ eot IE: 6+
++ woff IE: 9+; FF: 3.6+; Chrome: 5+; Safari: 5.1+; Opera: 11.1+;
++ SVG Chrome: 4+; Safari: 3.2+; Opera: 9.0+
++ ttf/otf IE 9+(partial); FF: 3.5+; Chrome: 4.0+; Safari: 3.1+; Opera: 10.0+
+
 @font-face
 ----------
 

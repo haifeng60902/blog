@@ -10,4 +10,4 @@
 7. 交互式自定义样式导出工具
 8. 基于 tag 的收藏夹管理
 8. 基于 tag 的音视频管理
-9. 
+9. Markman-canvas 基于 HTML5 canvas 的 markman

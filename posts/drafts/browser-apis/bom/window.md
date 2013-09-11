@@ -452,7 +452,7 @@ func 函数会在设定的时间间隔后被 __重复执行__ ，直到使用 cl
 >1.func 延迟调用的函数名称（字符串格式）  
 >2.millisec 计时器时长（毫秒）
 
-func 函数会在设定的时间后被 __执行一次__ ，可以使用 clearTimeoutl(timeout_id) 清除该计时器。
+func 函数会在设定的时间后被 __执行一次__ ，可以使用 clearTimeout(timeout_id) 清除该计时器。
 
 返回值：
 >timeout_id 计时器的 ID

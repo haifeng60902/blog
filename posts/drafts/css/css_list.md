@@ -16,21 +16,22 @@ list-style-type
 4. square 实心方块
 5. decimal 数字（1,2,3...）
 6. decimal-leading-zero 0 开头的数字（01,02...）
-7. low-roman 小写罗马数字（i, ii, iii...）
+7. lower-roman 小写罗马数字（i, ii, iii...）
 8. upper-roman 大写罗马数字（I, II, III...）
 9. lower-alpha 小写英文字母（a,b,c...）
 10. upper-alpha 大写英文字母（A,B,C...）
 11. lower-greek 小写希腊字母（α,β,γ...）
-12. lower-latin 小写拉丁字母（à,á,â...）
-13. upper-latin 大写拉丁字母（À,Á,Â...）
-14. hebrew 希伯来编号
-15. armenian 亚美尼亚编号
-16. georgian 乔治亚编号
-17. cjk-ideographic 表意数字
-18. hiragana 片假名（a,i,u,e,o...）
-19. katakana 片假名（A,I,U,E,O...）
-20. hiragana-iroha 片假名（i,ro,ha,ni,ho...）
-21. katakana-iroha 片假名（I,RI,HA,NI,HO...）
+12. upper-greek
+13. lower-latin 小写拉丁字母（à,á,â...）
+14. upper-latin 大写拉丁字母（À,Á,Â...）
+15. hebrew 希伯来编号
+16. armenian 亚美尼亚编号
+17. georgian 乔治亚编号
+18. cjk-ideographic 表意数字
+19. hiragana 片假名（a,i,u,e,o...）
+20. katakana 片假名（A,I,U,E,O...）
+21. hiragana-iroha 片假名（i,ro,ha,ni,ho...）
+22. katakana-iroha 片假名（I,RI,HA,NI,HO...）
 
 list-style-image
 ----------------
